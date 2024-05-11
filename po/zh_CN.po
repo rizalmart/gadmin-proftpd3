@@ -1,0 +1,1783 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-02-03 15:26+0800\n"
+"PO-Revision-Date: 2005-02-03 16:00+0800\n"
+"Last-Translator: Stanley Peng <stanleypng@gmail.com>\n"
+"Language-Team: Rays i18n Team <desktop@swhss.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Error reading passwd here:\n"
+msgstr "无法读取passwd文件：\n"
+
+msgid ""
+"\n"
+"Not installed correctly ?.\n"
+msgstr ""
+"\n"
+"没有正确安装？。\n"
+
+msgid "Error reading group here:\n"
+msgstr "无法读取group文件：\n"
+
+#, c-format
+msgid "User: %s could not be found in passwd or shadow.\n"
+msgstr "用户：%s 没有出现在passwd或shadow文件中。\n"
+
+msgid "The password was not changed.\n"
+msgstr "密码没有改变。\n"
+
+#, c-format
+msgid "Error changing password for user: %s\n"
+msgstr "为用户：%s 改变密码错误\n"
+
+#, c-format
+msgid "Cant add the master ftpuser with this command: %s\n"
+msgstr "无法使用此命令添加主ftpuser ：%s\n"
+
+#, c-format
+msgid ""
+"The user: %s\n"
+"has been added to your system with a /bin/false shell\n"
+"and put in ftpusers, no password was set.\n"
+msgstr ""
+"用户: %s\n"
+"已添加到系统，采用a /bin/false shell\n"
+"并放在ftpusers中，未设置密码。\n"
+
+
+#, c-format
+msgid "Cant add the master ftp group with this command: %s\n"
+msgstr "无法使用此命令添加主ftp组：%s\n"
+
+#, c-format
+msgid ""
+"The group: %s\n"
+"has been added to your system.\n"
+msgstr ""
+"组: %s\n"
+"已添加到系统中。\n"
+
+msgid "Cant write to ftpusers here:\n"
+msgstr "无法写到ftpusers ：\n"
+
+msgid ""
+"\n"
+"Run GProFTPD as root.\n"
+msgstr ""
+"\n"
+"以root用户运行GProFTPD。\n"
+
+msgid "Online"
+msgstr "在线"
+
+msgid "Offline"
+msgstr "离线"
+
+msgid ""
+"\n"
+"The server could not be turned off.\n"
+"\n"
+msgstr ""
+"\n"
+"服务器无法关闭。\n"
+"\n"
+
+msgid "Do you have another server running on this port ?\n"
+msgstr "此端口是否有其他服务器运行？\n"
+
+msgid "This could be a server running from inetd/xinetd.\n"
+msgstr "可能是inetd/xinetd 上运行的服务器。\n"
+
+msgid "The server is offline.\n"
+msgstr "服务器离线。\n"
+
+msgid "List server: Cant open proftpd.conf here:\n"
+msgstr "列表服务器：此处无法打开proftpd.conf:\n"
+
+#, c-format
+msgid "A line with over 8000 chars is not valid in: %s\n"
+msgstr "以下超过8000字符的行无效：%s\n"
+
+msgid "on"
+msgstr "打开"
+
+msgid "off"
+msgstr "关闭"
+
+msgid "binary"
+msgstr "二进制"
+
+msgid "ascii"
+msgstr "ascii"
+
+msgid "GMT"
+msgstr "GMT"
+
+msgid "local time"
+msgstr "本机时间"
+
+msgid "upper"
+msgstr "大写"
+
+msgid "lower"
+msgstr "小写"
+
+msgid "both"
+msgstr "大小写"
+
+msgid "data"
+msgstr "数据"
+
+msgid "control"
+msgstr "控制"
+
+msgid "User"
+msgstr "用户"
+
+msgid "Group"
+msgstr "组"
+
+msgid "Root directory"
+msgstr "根目录"
+
+msgid "Require password"
+msgstr "所需密码"
+
+msgid "Banned"
+msgstr "禁用"
+
+msgid "Maximum connections"
+msgstr "最大连接"
+
+msgid "yes"
+msgstr "是"
+
+msgid "no"
+msgstr "否"
+
+msgid "Address"
+msgstr "地址"
+
+msgid "Port"
+msgstr "端口"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "list_servers: Could not allocate enough memory\n"
+msgstr " list_servers:无法分配足够内存空间\n"
+
+#, c-format
+msgid ""
+"An entry in: %s\n"
+" is too long, please correct it.\n"
+msgstr ""
+"以下条目内容: %s\n"
+" 过长，请更正。\n"
+
+msgid "Mounted on"
+msgstr "挂载于"
+
+msgid "Free space"
+msgstr "空闲空间"
+
+msgid "Used space"
+msgstr "已用空间"
+
+msgid "Total space"
+msgstr "总空间大小"
+
+msgid "Percent used"
+msgstr "占用比率"
+
+msgid "Device"
+msgstr "设备"
+
+msgid "Cant open the securitylog here:\n"
+msgstr "此处无法打开securitylog:\n"
+
+msgid "Could not allocate enough memory to read:\n"
+msgstr "无法分配足够空间读取:\n"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "Action"
+msgstr "动作"
+
+msgid "Filename"
+msgstr "文件名"
+
+msgid "Bytes"
+msgstr "字节"
+
+msgid "Start of transfer"
+msgstr "开始传送"
+
+msgid "Remote host"
+msgstr "远程主机"
+
+msgid "list_files: Could not allocate enough memory\n"
+msgstr " list_files:无法分配足够内存\n"
+
+#, c-format
+msgid ""
+"An entry in: %s\n"
+" is too long and has been shortened.\n"
+msgstr ""
+"以下条目内容: %s\n"
+" 过长，已被截短。\n"
+
+msgid "Alot of these extremely long filnames will decrease startup speed.\n"
+msgstr "使用过长文件名将减慢启动速度。\n"
+
+msgid "uploaded"
+msgstr "已上载"
+
+msgid "downloaded"
+msgstr "已下载"
+
+msgid "deleted"
+msgstr "已删除"
+
+msgid "Cant write the new proftpd.conf here:\n"
+msgstr "此处无法写新的proftpd.conf:\n"
+
+msgid ""
+"\n"
+"Run GProFTPD as root\n"
+msgstr ""
+"\n"
+"以root运行GProFTPD \n"
+
+msgid "Cant allocate enough memory for the default values\n"
+msgstr "无法为默认值分配足够内存\n"
+
+msgid "Cant allocate enough memory for the configuration.\n"
+msgstr "没有足够内存进行配置。\n"
+
+msgid "Cant get version from: \"proftpd -v\"\n"
+msgstr "无法获取版本，从: \"proftpd -v\"\n"
+
+msgid "ProFTPD must be installed and be in your path.c"
+msgstr " 必须在你的path.c下安装ProFTPD。"
+
+#, c-format
+msgid "Proftpd version: %s"
+msgstr " Proftpd 版本: %s "
+
+#, c-format
+msgid "GProftpd version: %s"
+msgstr " Gproftpd版本: %s "
+
+msgid "No version found"
+msgstr "找不到版本"
+
+msgid "Servername"
+msgstr "服务器名"
+
+msgid "Server type"
+msgstr "服务器类型"
+
+msgid "Cant open shells for reading here:\n"
+msgstr "无法打开shell读取:\n"
+
+msgid "Cant open shells for writing /bin/false here:\n"
+msgstr "无法打开shell写/bin/false:\n"
+
+msgid "Couldnt find ftpusers here:\n"
+msgstr "无法找到ftpusers :\n"
+
+msgid ""
+"\n"
+"so GProftpd made that file and added all users\n"
+msgstr ""
+"\n"
+"因此 GProftpd 创建文件并添加所有用户\n"
+
+msgid "on the system to it. They are now banned from using the ftp server.\n"
+msgstr "在系统上。现在被禁用ftp服务器。\n"
+
+msgid "This in an auto-security feature.\n"
+msgstr "这是自动安全特性。\n"
+
+msgid "You must specify a username.\n"
+msgstr "必须指定用户名。\n"
+
+msgid "Usernames are not allowed to begin with a number.\n"
+msgstr "用户名不能以数字开头。\n"
+
+msgid "Refusing to add user root.\n"
+msgstr "拒绝添加用户root。\n"
+
+msgid "A username containing < or > is not allowed.\n"
+msgstr "用户名不能包含< 或 >。\n"
+
+msgid "The minimum password length is 6 chars.\n"
+msgstr "密码至少要6个字符。\n"
+
+msgid "The minimum shell length is 3 chars.\n"
+msgstr "shell最小长度是3字符。\n"
+
+msgid "Mimimum directory path length is 1 char.\n"
+msgstr "最小目录路径长度为1字符。\n"
+
+msgid "Error reading configuration:\n"
+msgstr "读取配置错误:\n"
+
+msgid ""
+"\n"
+"Run gproftpd as root, not installed correctly ?.\n"
+msgstr ""
+"\n"
+"以root运行 gproftpd, 安装不正确？ \n"
+
+msgid "That user already exists in this server in proftpd.conf.\n"
+msgstr "本服务器已有此用户，位于proftpd.conf\n"
+
+msgid "Nothing was changed.\n"
+msgstr "未更改。\n"
+
+msgid "Error adding the fake user with this command:\n"
+msgstr "使用此命令添加伪用户出错：\n"
+
+msgid ""
+"\n"
+"add it in a terminal\n"
+msgstr ""
+"\n"
+"在终端添加\n"
+
+msgid "Error adding the fake darwin user, add it manually.\n"
+msgstr "错误添加伪darwin 用户，请手动添加。\n"
+
+msgid "Error adding the real user with this command:\n"
+msgstr "使用此命令添加真用户出错:\n"
+
+msgid "The system user was not added because uppercase\n"
+msgstr "系统用户不能添加，因为大写问题\n"
+
+msgid "or language specific letters arent allowed.\n"
+msgstr "或不允许特定语言的字母。\n"
+
+msgid "Could not read AllowUser here:\n"
+msgstr "此处无法读取AllowUser:\n"
+
+msgid ""
+"\n"
+"Run gproftpd as root\n"
+msgstr ""
+"\n"
+"以root运行gproftpd\n"
+
+msgid "Could not write the new userinformation to:\n"
+msgstr "无法写入新的用户信息:\n"
+
+msgid "Manually delete that user,\n"
+msgstr "手动删除此用户,\n"
+
+msgid "could not delete it.\n"
+msgstr "无法删除。\n"
+
+msgid "Cant delete a user of zero length.\n"
+msgstr "无法删除0长度的用户。\n"
+
+msgid "Refusing to delete user root.\n"
+msgstr "拒绝删除用户root。\n"
+
+msgid "Cant open the configuration:\n"
+msgstr "无法打开配置文件:\n"
+
+msgid "Could not find the specified server\n"
+msgstr "无法找到特定服务器\n"
+
+msgid "Try reselecting the server by doubleclicking on it.\n"
+msgstr "通过双击重新选择服务器。\n"
+
+msgid "Error reading the configuration here:\n"
+msgstr "读取此处配置错误:\n"
+
+#, c-format
+msgid "The user could not be found, this is a bug or %s has errors.\n"
+msgstr "无法找到该用户，这是漏洞或%s 错误。\n"
+
+msgid "run a syntax check to find out if there are any problems.\n"
+msgstr "运行语法检测，看是否有错误。\n"
+
+msgid ""
+"\n"
+"The minimum password length is 6 chars.\n"
+msgstr ""
+"\n"
+"密码至少为 6字符。\n"
+
+msgid ""
+"\n"
+"The Password was changed.\n"
+msgstr ""
+"\n"
+"密码已更改。\n"
+
+msgid "The user didnt exist in shadow or passwd.\n"
+msgstr "该用户在shadow或passwd中不存在。\n"
+
+msgid ""
+"\n"
+"Cant open proftpd.conf\n"
+msgstr ""
+"\n"
+"无法打开proftpd.conf\n"
+
+msgid ""
+"If there are no complaints the configuration is ok...\n"
+"\n"
+msgstr ""
+"如果其他问题，配置OK......\n"
+"\n"
+
+msgid ""
+"\n"
+"Check completed. "
+msgstr ""
+"\n"
+"检测完成。"
+
+#, c-format
+msgid ""
+"Cant write to proftpd.conf here: \n"
+"%s\n"
+msgstr ""
+"无法写到proftpd.conf: \n"
+"%s\n"
+
+msgid "You must specify a username or process number.\n"
+msgstr "必须指定一个用户名或程序号。\n"
+
+msgid "popen error, user not kicked\n"
+msgstr " popen 错误，不踢出用户\n"
+
+msgid "User or pid not found.\n"
+msgstr "未找到用户或pid。\n"
+
+msgid "popen error, user not kicked or banned.\n"
+msgstr "popen错误，用户未被踢出或禁止。\n"
+
+#, c-format
+msgid ""
+"The user was not banned, could not write to:\n"
+"%s"
+msgstr ""
+"未禁止用户，无法写到:\n"
+"%s"
+
+msgid "Cant ban a non active user by PID.\n"
+msgstr "无法通过PID禁止一个非活动用户\n"
+
+msgid "Misspelled maybe ?\n"
+msgstr "是否拼写错误？\n"
+
+msgid "The user was already banned.\n"
+msgstr "已禁止用户。\n"
+
+msgid "The user was not currently in the ftp.\n"
+msgstr "用户目前不在ftp 中。\n"
+
+msgid "The user was banned but not kicked.\n"
+msgstr "禁止用户但不踢出。\n"
+
+msgid "The user was kicked and banned.\n"
+msgstr "用户被踢出并禁止。\n"
+
+msgid "Welcome message generation failed"
+msgstr "生成欢迎页面失败"
+
+msgid "No xferlog records found or popen failed\n"
+msgstr "无xferlog 记录，或popen失败\n"
+
+msgid "Every certificate field must be filled in\n"
+msgstr "必须填写所有验证字段\n"
+
+msgid "This step can take a while"
+msgstr "此过程需要一段时间"
+
+msgid "The certificate has been created successfully\n"
+msgstr "验证已成功创建\n"
+
+msgid "and placed in the correct location.\n"
+msgstr "并位于正确位置。\n"
+
+msgid "It will be used by new FTP-TLS logins.\n"
+msgstr "将用于新的FTP-TLS 登录。\n"
+
+msgid "The certificate has not been created, something went wrong.\n"
+msgstr "验证未创建，出现错误。\n"
+
+msgid "Cant open proftpd.conf for writing here:\n"
+msgstr "无法打开proftpd.conf 写入:\n"
+
+msgid "Cant allocate enough memory for adding a new server\n"
+msgstr "没有足够内存添加新服务器\n"
+
+msgid "The standard server can not be deleted.\n"
+msgstr "无法删除标准服务器\n"
+
+msgid "Setting a servers port to 0 disables it.\n"
+msgstr "把服务器设为0即禁用它。\n"
+
+msgid "Refusing to delete a server with no specified name.\n"
+msgstr "拒绝删除没有指定名称的服务器。\n"
+
+msgid "Refusing to delete a server with no specified port.\n"
+msgstr "拒绝删除没有指定端口的服务器。\n"
+
+msgid "Cant open the proftpd.conf here:\n"
+msgstr "无法打开这里的proftpd.conf:\n"
+
+msgid "Could not delete the specified server\n"
+msgstr "无法删除指定服务器\n"
+
+msgid "Refusing to change a server without a specified name.\n"
+msgstr "拒绝修改没有指定名称的服务器。\n"
+
+msgid "Refusing to change a server without a specified port.\n"
+msgstr "拒绝修改没有指定端口的服务器。\n"
+
+msgid "Cant open proftpd.conf here:\n"
+msgstr "无法打开这里的proftpd.conf:\n"
+
+msgid "Could not find the specified server, no changes where made.\n"
+msgstr "无法找到指定服务器，不进行修改。\n"
+
+msgid "GProftpd help"
+msgstr "GProftpd 帮助"
+
+msgid ""
+"\n"
+"When gproftpd is started it checks if you have all required files and that "
+"the environment is ok.\n"
+"\n"
+msgstr ""
+"\n"
+"当 gproftpd 启动时，检测你是否拥有所有必要的文件以及环境是否合适。\n"
+"\n"
+
+msgid ""
+"If you have just upgraded you should check out the homepage if any additions "
+"to the configuration are\n"
+msgstr ""
+"如果刚升级，应到主页检测是否有附加的配置\n"
+"\n"
+
+msgid ""
+"necessary in order to take full advantage of all its features.\n"
+"\n"
+msgstr ""
+"以充分实现完整功能\n"
+"\n"
+
+msgid ""
+"Proftpd must be installed and located somewhere in the environments path "
+"variable\n"
+"\n"
+"\n"
+msgstr ""
+"必须安装Proftpd并位于environments路径变量\n"
+"\n"
+"\n"
+
+msgid ""
+"When you add a user you can randomize its name and password or use your "
+"own.\n"
+msgstr ""
+"添加用户后，你可以随意为其命名和设置密码，或使用自己的信息。\n"
+
+msgid ""
+"You can also select its login shell and where this user should have its root "
+"directory and upload directory.\n"
+msgstr "你也可以选择login shell、用户root目录的位置，以及upload目录。\n"
+
+msgid ""
+"If the selected shell is /bin/false, /sbin/nologin etc the user can only "
+"login to this ftpserver otherwise\n"
+msgstr ""
+"如果所选的shell是/bin/false, /sbin/nologin等，则用户只能"
+"登录到此ftpserver，否则\n"
+
+msgid ""
+"that user gets a private home directory as well as its ftp directory and can "
+"login via ssh etc if that server\n"
+msgstr ""
+"用户有一个私有home目录，及其ftp目录，并能通过ssh等登录，如果该服务器\n"
+
+msgid ""
+"allows this user to do so.\n"
+"\n"
+msgstr ""
+"允许用户这样做。\n"
+
+msgid "The upload directory must be located below the users root directory.\n"
+msgstr "upload目录必须在用户root目录下。\n"
+
+msgid ""
+"If you dont want that user to have an upload directory you can uncheck the "
+"checkbox next to it.\n"
+"\n"
+msgstr ""
+"如果不希望用户使用upload目录，你可以取消复选框旁的选择。\n"
+"\n"
+
+msgid ""
+"If you want to add directories thats not under the users root directory you "
+"can do this:\n"
+"\n"
+msgstr ""
+"如果想在非root目录下添加目录"
+"你可以:\n"
+"\n"
+
+msgid "Linux (as of kernel 2.4.0):\n"
+msgstr "Linux(内核版本2.4.0): \n"
+
+msgid ""
+"mount --bind /some/directory/to/share /home/ftp/make_this_directory_first\n"
+"\n"
+msgstr ""
+"mount --bind /some/directory/to/share /home/ftp/make_this_directory_first\n"
+"\n"
+
+msgid ""
+"Alternatively:\n"
+"mount -o bind /var/data /home/ftp/bob/data\n"
+"\n"
+msgstr ""
+"此外:\n"
+"mount -o bind /var/data /home/ftp/bob/data\n"
+"\n"
+
+msgid ""
+"*BSD (as of 4.4BSD):\n"
+"mount_null /var/data /home/ftp/bob/data\n"
+"\n"
+msgstr ""
+"*BSD (as of 4.4BSD):\n"
+"mount_null /var/data /home/ftp/bob/data\n"
+"\n"
+
+msgid ""
+"Solaris:\n"
+"mount -F lofs /var/data /home/ftp/bob/data\n"
+"\n"
+msgstr ""
+"Solaris:\n"
+"mount -F lofs /var/data /home/ftp/bob/data\n"
+"\n"
+
+msgid ""
+"If you want automatically generated statistics you can use gprostats with "
+"crond\n"
+msgstr "如果想自动生成统计表，可以结合crond使用gprostats\n"
+
+msgid ""
+"or press the welcome and html statistics buttons in the files tab to make "
+"them once.\n"
+"\n"
+msgstr ""
+"或在文件标签中按下welcome和html statistics按钮，让它们一次实现\n"
+"\n"
+
+msgid ""
+"With crond and gprostats you can do this to have it automatically update the "
+"statistics:\n"
+msgstr "使用crond 和 gprostats，你可以让它自动更新统计:\n"
+
+
+msgid ""
+"gprostats -html /path/to/output.html\n"
+"gprostats -w welcome.msg\n"
+msgstr ""
+
+msgid ""
+"or both at the same time: gprostats -html /path/to/output.html -w welcome."
+"msg\n"
+msgstr "或同时进行：gprostats -html /path/to/output.html -w welcome."
+"msg\n"
+
+msgid ""
+"Use -c /path/to/proftpd.conf -x /path/to/xferlog if you need to.\n"
+"\n"
+msgstr "必要时使用-c /path/to/proftpd.conf -x /path/to/xferlog。\n"
+"\n"
+
+msgid ""
+"If you have made customized welcome messages and dont want them overwritten\n"
+msgstr "如果你编写了个性化欢迎信息，且不希望被改写\n"
+
+msgid ""
+"by gprostats you can configure this by doubleclicking a user and unchecking "
+"update statistics.\n"
+msgstr "通过gprostats，你可以双击一个用户，并取消更新统计来进行配置。\n"
+
+msgid ""
+"then pressing the change button, this will also exclude the user from the "
+"html output.\n"
+"\n"
+msgstr ""
+"然后按下更改按钮，这样一来用户也不会出现在html输出中。\n"
+"\n"
+
+msgid ""
+"Some typical setups:\n"
+"\n"
+"If one or more of your users needs to have upload access to a http servers "
+"directory:\n"
+"\n"
+msgstr ""
+"一些典型设置:\n"
+"\n"
+"如果用户想上载到http服务器目录：\n"
+"\n"
+
+msgid ""
+"1. Set the users ftp root directory to the webserver's root directory /var/"
+"www/html\n"
+msgstr ""
+"1.将用户 ftp root 目录设置为网络服务器的 root 目录 /var/www/html\n"
+
+msgid ""
+"   or /var/www/html/this_users_directory for a private homepage.\n"
+"\n"
+msgstr ""
+"   或作为个人主页的/var/www/html/this_users_directory 。\n"
+"\n"
+
+msgid ""
+"2. Take away all text from the upload directory field\n"
+"\n"
+msgstr ""
+"2. 去除upload目录中的所有文本。\n"
+"\n"
+
+msgid "3. Make sure the checkbutton next to the upload directory is checked.\n"
+msgstr "3.确保upload目录旁的复选按钮选中。\n"
+
+msgid ""
+"   Press the add button to add this user.\n"
+"\n"
+msgstr ""
+"   按下添加按钮添加用户。\n"
+"\n"
+
+msgid ""
+"4. You can now login as this user and upload to the html directory.\n"
+"\n"
+"\n"
+msgstr ""
+"4. 现在，你可以以这个用户登录，并上传html 目录。\n"
+"\n"
+"\n"
+
+msgid ""
+"To add anonymous readonly access to a directory you can do this:\n"
+"\n"
+msgstr ""
+"将匿名的只读访问添加到一个目录中，你可以这样做： \n"
+"\n"
+
+msgid "1. Type anonymous in the username field. \n"
+msgstr "1. 在用户名字段中键入匿名。\n"
+
+msgid ""
+"    Press the password randomize button or type any password you want.\n"
+msgstr ""
+"   按下密码随机按钮或键入任何你想要的密码。\n"
+
+msgid "    Select the /bin/false shell.\n"
+msgstr "   选择/bin/false shell 。\n"
+
+msgid "    Uncheck the upload checkbutton, this is important.\n"
+msgstr "   不要选中upload 复选框按钮，这是很重要的。\n"
+
+msgid ""
+"    Press add to add this anonymous user.\n"
+"\n"
+msgstr ""
+"   按下添加按钮，添加这个匿名用户。\n"
+"\n"
+
+msgid ""
+"2. Doubleclick that user in the users tab and set require password to off "
+"then\n"
+msgstr ""
+"2. 双击用户标签中的那个用户，然后将需要密码设置成关闭 \n"
+
+msgid ""
+"    check that this user isnt banned then press the change button.\n"
+"\n"
+msgstr ""
+"   检查这个用户是否是被禁止访问的用户，然后按下修改按纽\n"
+"\n"
+
+msgid ""
+"4. You can now login as anonymous with no password.\n"
+"\n"
+"\n"
+msgstr ""
+"4. 现在你可以匿名的方式，不需要密码就可以登录了。\n"
+"\n"
+"\n"
+
+msgid ""
+"This is the default setting, one upload directory and a readonly ftp root "
+"directory:\n"
+msgstr ""
+"这是默认设置，一个上传目录和一个只读 ftp 根目录：\n"
+
+msgid "Root directory: /home/ftp\n"
+msgstr "根目录：/home/ftp\n"
+
+msgid ""
+"Upload directory /home/ftp/upload\n"
+"\n"
+msgstr ""
+"上传目录 /home/ftp/upload\n"
+"\n"
+
+msgid ""
+"The users can then upload files in the upload directory and download from "
+"the\n"
+msgstr ""
+"然后用户可以上传在上传目录中的文件，并从ftp 根目录中下载文件"
+"the\n"
+
+msgid ""
+"ftp root directory where you can put what you want to share.\n"
+"\n"
+msgstr ""
+"你可以将你想要共享的内容放到ftp 根目录中\n"
+"\n"
+
+msgid ""
+"You can easily add more servers to run on different interfaces and ports.\n"
+msgstr ""
+"你可以很轻易地添加更多的服务器，以在不同的接口和端口上运行\n"
+
+msgid ""
+"When a user connects to one address and port it gets access according to "
+"that servers\n"
+msgstr ""
+"当一个用户连接到一个地址和端口时，可以根据那个服务器进行访问 \n"
+
+msgid ""
+"configuration but only if the server is selected to bind to addresses.\n"
+msgstr ""
+"配置，但只在服务器被选中绑定到地址上时。\n"
+
+msgid ""
+"There are two directives used for this:\n"
+"Bind and SocketBindTight.\n"
+msgstr ""
+"两个指令用于这个:\n"
+"Bind 和 SocketBindTight.\n"
+
+msgid ""
+"If you want to turn off a server without deleting it you can set its port "
+"value to 0\n"
+"\n"
+msgstr ""
+"若你想关掉服务器，但不删除它，那么你可以将它的端口值设置成0 \n"
+"\n"
+
+msgid ""
+"If this Proftpd server is behind a NAT gateway you should specify the "
+"gateways\n"
+msgstr ""
+"若这个 Proftpd 服务器配置了一个 NAT 网关，那么你应指定网关\n"
+
+msgid ""
+"DNS name or IP address otherwise turn it off.\n"
+"\n"
+msgstr ""
+"否则，DNS名或IP地址就将它关闭。\n"
+"\n"
+
+msgid ""
+"If you copy or move a file directly to the ftpservers directory you may need "
+"to\n"
+msgstr ""
+"若你直接将一个文件复制或移到你所需要的ftpservers 目录中\n"
+
+msgid ""
+"chmod it with 644 and chmod directories to 755 so that the directory and "
+"file can be accessed.\n"
+"\n"
+msgstr ""
+"将它的模式修改成644，并将目录的模式修改成755，以便目录和文件均可以访问。\n"
+"\n"
+
+msgid ""
+"This is one way of chmodding all files recursively in the directory /home/"
+"ftp:\n"
+msgstr ""
+"这是一种在目录/home/ftp中递归地改变所有文件的模式的方法:\n"
+
+msgid ""
+"find /home/ftp -type f -exec chmod 644  -v {} \\;\n"
+"\n"
+msgstr ""
+"查找 /home/ftp -type f -exec chmod 644  -v {} \\;\n"
+"\n"
+
+msgid ""
+"Upload directories should have a chmod of 777 and this can be used for /home/"
+"ftp/upload\n"
+msgstr ""
+"上传目录应有一个chmod 777，这可以用于/home/"
+"ftp/upload\n"
+
+msgid ""
+"find /home/ftp/upload -type d -exec chmod 777  -v {} \\;\n"
+"\n"
+"\n"
+msgstr ""
+"查找 /home/ftp/upload -type d -exec chmod 777  -v {} \\;\n"
+"\n"
+"\n"
+
+msgid ""
+"For more detailed information about the server and its configuration "
+"directives visit:\n"
+msgstr ""
+"有关服务器及其配置指令的详细信息，请访问:\n"
+
+msgid "http://www.proftpd.org\n"
+msgstr "http://www.proftpd.org\n"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Shutdown"
+msgstr "关机"
+
+msgid "The server will shut down according to these settings."
+msgstr "根据这些设置，服务器将关机。"
+
+msgid "Time to real shutdown:"
+msgstr "真实关机的时间："
+
+msgid "now, +Minutes or HHMM"
+msgstr "现在，+Minutes 或 HHMM "
+
+msgid "New access disabled:"
+msgstr "不能执行新的访问："
+
+msgid "Minutes before real shutdown."
+msgstr "在真实关机之前还有多少分钟。"
+
+msgid "Existing users disconnected:"
+msgstr "现有用户断开连接："
+
+msgid "Shutdown message:"
+msgstr "关机消息："
+
+#, c-format
+msgid "%s , Current connections will be dropped: %d"
+msgstr "%s , 当前连接将结束: %d "
+
+msgid "Pressing the online button will let users login again."
+msgstr "按下在线按纽将让用户再次登录。"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "OK"
+msgstr "确定"
+
+msgid "GProFTPD information"
+msgstr " GProFTPD 信息"
+
+msgid "User settings"
+msgstr "用户设置"
+
+msgid "These are the settings for this user."
+msgstr "这些设置用于该用户。"
+
+msgid "Username:          "
+msgstr "用户名："
+
+msgid "Password:          "
+msgstr "密码："
+
+msgid "Group:                 "
+msgstr "组："
+
+msgid "Require password:"
+msgstr "需要密码："
+
+msgid "Allow logins from:"
+msgstr "允许从以下站点登录："
+
+msgid "Maximum logins:  "
+msgstr "最大登录次数："
+
+msgid "Message:            "
+msgstr "消息："
+
+msgid "Root directory:    "
+msgstr "根目录："
+
+msgid "Update statistics:"
+msgstr "更新statistics ："
+
+msgid "Banned:"
+msgstr "禁止："
+
+msgid "Type a password longer then 6 chars to change."
+msgstr "键入一个长度大于6个字符的密码来修改。"
+
+msgid "all,none,192.168.0.,host.domain.edu,.trusted-domain.org"
+msgstr " all,none,192.168.0.,host.domain.edu,.trusted-domain.org "
+
+msgid "Upload directory:"
+msgstr "上传目录："
+
+msgid "This user is permitted to do the following in this directory:"
+msgstr "用户可以在该目录中进行以下操作："
+
+msgid "List:"
+msgstr "列表："
+
+msgid "Upload:"
+msgstr "上传"
+
+msgid "Append:"
+msgstr "附加："
+
+msgid "Download:"
+msgstr "下传："
+
+msgid "Rename:"
+msgstr "重新命名："
+
+msgid "Delete:"
+msgstr "删除："
+
+msgid "Create directory:"
+msgstr "创建目录："
+
+msgid "Remove directory:"
+msgstr "删除目录："
+
+msgid "Site:"
+msgstr "位置："
+
+msgid "Show dates:"
+msgstr "显示日期："
+
+msgid "Show current path:"
+msgstr "显示当前路径："
+
+msgid "Show filesize:"
+msgstr "显示文件大小："
+
+msgid "Change working directory:"
+msgstr "更改工作目录："
+
+msgid "Change mode:"
+msgstr "更改模式："
+
+msgid "Change group:"
+msgstr "修改组："
+
+msgid "Cdup:"
+msgstr " Cdup:"
+
+msgid "Show connection settings:"
+msgstr "显示连接设置："
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Change"
+msgstr "修改"
+
+msgid "About"
+msgstr "关于"
+
+msgid "Author: "
+msgstr "作者："
+
+msgid "I want to thank the following for their contributions:"
+msgstr "我要感谢以下主要贡献人员："
+
+msgid "for the icons and the weblogo.\n"
+msgstr "在图标和网站标志方面的贡献。\n"
+
+msgid "for coding support and testing.\n"
+msgstr "在代码支持和测试方面的贡献。\n"
+
+msgid "The people at the GTK+ development lists.\n"
+msgstr " GTK+ 开发列表上人员。\n"
+
+msgid "for the RPM spec file."
+msgstr "在RPM spec 文件方面的贡献。"
+
+msgid "And all translators:"
+msgstr "以及所有翻译者"
+
+msgid "Afrikaans"
+msgstr "南非荷兰语"
+
+msgid "Amharic"
+msgstr "阿姆哈拉语"
+
+msgid "Arabic"
+msgstr "阿拉伯语"
+
+msgid "Azerbaijani"
+msgstr "阿塞拜疆语"
+
+msgid "Basque"
+msgstr "巴斯克语"
+
+msgid "Bulgarian"
+msgstr "保加利亚语"
+
+msgid "Breton"
+msgstr "法国布里多尼地区语言"
+
+msgid "Brittish-English"
+msgstr "英语"
+
+msgid "Bosnian"
+msgstr "波斯尼亚语"
+
+msgid "Byelorussian"
+msgstr "白俄罗斯语"
+
+msgid "Catalan"
+msgstr "加泰罗尼亚语"
+
+msgid "Chinese-Simplified"
+msgstr "简体中文"
+
+msgid "Chinese-Traditional"
+msgstr "繁体中文"
+
+msgid "Croatian"
+msgstr "克罗地亚语"
+
+msgid "Czech"
+msgstr "捷克语"
+
+msgid "Danish"
+msgstr "丹麦语"
+
+msgid "Dutch"
+msgstr "荷兰语"
+
+msgid "Esperanto"
+msgstr "世界语"
+
+msgid "Estonian"
+msgstr "爱沙尼亚语"
+
+msgid "Finnish"
+msgstr "芬兰语"
+
+msgid "French"
+msgstr "法语"
+
+msgid "Galician"
+msgstr "加利西亚语"
+
+msgid "German"
+msgstr "德语"
+
+msgid "Greek"
+msgstr "希腊语"
+
+msgid "Hebrew"
+msgstr "希伯来语"
+
+msgid "Hini"
+msgstr " Hini "
+
+msgid "Hungarian"
+msgstr "匈牙利语"
+
+msgid "Icelandic"
+msgstr "冰岛语"
+
+msgid "Indonesian"
+msgstr "印度尼西亚语"
+
+msgid "Irish"
+msgstr "爱尔兰语"
+
+msgid "Italian"
+msgstr "意大利语"
+
+msgid "Japanese"
+msgstr "日语"
+
+msgid "Korean"
+msgstr "韩语"
+
+msgid "Kurdish"
+msgstr "库尔德语"
+
+msgid "Latvian-Lettish"
+msgstr "拉脱维亚-列托(Lett) 语"
+
+msgid "Lithuanian"
+msgstr "立陶宛语"
+
+msgid "Macedonian"
+msgstr "马其顿语"
+
+msgid "Maori"
+msgstr "毛利语"
+
+msgid "Maltese"
+msgstr "马耳他语"
+
+msgid "Norwegian"
+msgstr "挪威语"
+
+msgid "Polish"
+msgstr "波兰语"
+
+msgid "Portuguese"
+msgstr "葡萄牙语"
+
+msgid "Portuguese-Brazil"
+msgstr "葡萄牙-巴西语"
+
+msgid "Romanian"
+msgstr "罗马尼亚语"
+
+msgid "Russian"
+msgstr "俄语"
+
+msgid "Serbian"
+msgstr "塞尔维亚语"
+
+msgid "Slovak"
+msgstr "斯洛伐克人语 "
+
+msgid "Slovenian"
+msgstr "斯洛文尼亚语 "
+
+msgid "Spanish"
+msgstr "西班牙语"
+
+msgid "Swedish"
+msgstr "瑞典语"
+
+msgid "Tamil"
+msgstr "泰米尔语"
+
+msgid "Thai"
+msgstr "泰国语"
+
+msgid "Turkish"
+msgstr "土耳其语"
+
+msgid "Ukrainian"
+msgstr "乌克兰语"
+
+msgid "Vietnamese"
+msgstr "越南语"
+
+msgid "Wallon"
+msgstr "瓦龙语"
+
+msgid "Welch"
+msgstr " Welch "
+
+msgid "And a big thanks to the Proftpd team.\n"
+msgstr "并万分感谢Proftpd 团队。\n"
+
+msgid "Choose the users root directory"
+msgstr "选择用户根目录"
+
+msgid "Choose an upload directory (must be below the users directory)"
+msgstr "选择一个上传目录（必须在用户目录下）"
+
+msgid "GProftpd question"
+msgstr " GProftpd 问题"
+
+msgid ""
+"GProftpd could not find proftpd.conf or you are using\n"
+"the basic configuration wich doesnt have all features\n"
+"that gproftpd's default configuration has.\n"
+"\n"
+"If you use proftpd's default configuration and dont\n"
+"want to see this question again, take away the line:\n"
+"# Port 21 is the standard ftp port.\n"
+"\n"
+"Do you want to overwrite proftpd.conf with GProftpd's\n"
+"default configuration ?\n"
+"\n"
+"              (If you dont know then press yes)\n"
+msgstr ""
+"GProftpd 不能查找到 proftpd.conf，或者你正使用的基本配置不具有\n"
+"gproftpd 的缺省配置的所有特性。\n"
+"\n"
+"若你使用proftpd的缺省配置，不想再看到这个问题，那么去除这行：\n"
+"# Port 21是标准的 ftp 端口。\n"
+"\n"
+"你要通过GProftpd 的缺省配置重写proftpd.conf 吗？\n"
+"\n"
+"              (若你不知道，请按下是。)\n"
+
+msgid "Yes"
+msgstr "是"
+
+msgid "No"
+msgstr "否"
+
+msgid "GProFTPD Password"
+msgstr " GProFTPD 密码"
+
+msgid "This user already existed in the system."
+msgstr "该用户已经存在于系统中。"
+
+msgid "Username:"
+msgstr "用户名："
+
+msgid "New password: "
+msgstr "新密码："
+
+msgid "Do you want to change the users password ?"
+msgstr "你要修改用户密码吗？"
+
+msgid "Dont change"
+msgstr "不修改"
+
+msgid "Delete the system user ?"
+msgstr "删除系统用户？"
+
+msgid "Do you also want to delete the system user ?"
+msgstr "你也想删除系统用户吗？"
+
+msgid "Username: "
+msgstr "用户名"
+
+msgid "Add this needed master ftpuser ?"
+msgstr "添加这个需要主ftp用户"
+
+msgid "GProftpd needs to add the user and group the server will runs as."
+msgstr " GProftpd 需要添加用户和组，服务器将以它们运行。 "
+
+msgid "User and groupname:"
+msgstr "用户和组名"
+
+msgid "This action is necessary, do you want to do it ?"
+msgstr "这个动作是必要的，你不想进行吗？"
+
+msgid "   Online    "
+msgstr " 在线 "
+
+msgid "    Offline    "
+msgstr " 离线 "
+
+msgid " Shutdown "
+msgstr " 关闭 "
+
+msgid "   ReRead   "
+msgstr " 重读 "
+
+msgid "      Help      "
+msgstr " 帮助 "
+
+msgid "   About   "
+msgstr " 关于 "
+
+msgid "      Quit      "
+msgstr " 退出 "
+
+msgid "Information:"
+msgstr "信息"
+
+msgid "proftpd -v failed."
+msgstr " proftpd -v 失败。"
+
+msgid "The server is currently:"
+msgstr "服务器当前："
+
+msgid "Cant determine."
+msgstr "不能确定。"
+
+msgid "This is the configuration for the currently selected server."
+msgstr "这是当前选定服务器的配置。"
+
+msgid "Import"
+msgstr "导入"
+
+msgid "Add Server"
+msgstr "添加服务器"
+
+msgid "Delete server"
+msgstr "删除服务器"
+
+msgid "Apply"
+msgstr "应用"
+
+msgid "DNS name or ip address of the server:"
+msgstr "服务器的DNS名或IP地址："
+
+msgid "Show alternate server identity:"
+msgstr "显示可选服务器的ID："
+
+msgid "NAT gateway address:"
+msgstr "NAT 网关地址："
+
+msgid "The administrators email address:"
+msgstr "管理员邮件地址："
+
+msgid "To listen on all interfaces 0.0.0.0 can be used"
+msgstr "监听所有可以使用的接口0.0.0.0 "
+
+msgid "Only use this if you are behind a NAT gateway"
+msgstr "若你使用一个NAT网关，就只能用这个。"
+
+msgid "Bind servers to their addresses:"
+msgstr "将服务器帮定到它们的地址上："
+
+msgid "Identity lookups:"
+msgstr "身份查询："
+
+msgid "Reverse lookups:"
+msgstr "反向查询"
+
+msgid "Timestandard:"
+msgstr "时间标准"
+
+msgid "The port the server listens on:"
+msgstr "服务器监听的端口"
+
+msgid "Passive ports range:"
+msgstr "响应被动数据连接请求的端口范围："
+
+msgid "Maximum connections for each server:"
+msgstr "每个服务器最大的连接次数："
+
+msgid "Max login attempts before disconnected:"
+msgstr "在断开连接之前尝试登录的最大次数："
+
+msgid "Login timeout:"
+msgstr "登录超时："
+
+msgid "Idle timeout:"
+msgstr "空闲超时："
+
+msgid "Randomized username length:"
+msgstr "随机用户名长度："
+
+msgid "Randomized password length:"
+msgstr "随机的密码长度："
+
+msgid "Randomize to upper or lower case:"
+msgstr "大小写随机："
+
+msgid "Default transfermode:"
+msgstr "默认的传输模式："
+
+msgid "FXP transfers:"
+msgstr " FXP 传输："
+
+msgid "gmt"
+msgstr " gmt "
+
+msgid "0 is offline"
+msgstr "0是离线"
+
+msgid "Seconds"
+msgstr "秒"
+
+msgid "Useradds default root directory path:"
+msgstr "Useradds 的默认根目录路径："
+
+msgid "Useradds default upload directory:"
+msgstr " Useradds 的默认上传的目录："
+
+msgid "Statistics default html path:"
+msgstr " Statistics的默认html 路径："
+
+msgid "Statistics default welcome name:"
+msgstr " Statistics的默认欢迎名："
+
+msgid "The systems logfile:"
+msgstr "系统日志文件"
+
+msgid "The server runs as this user:"
+msgstr "服务器以该用户运行："
+
+msgid "The server runs as this group:"
+msgstr "服务器以该组运行："
+
+msgid "This fake user owns all files:"
+msgstr "该伪用户拥有所有文件："
+
+msgid "This fake group owns all files:"
+msgstr "该伪组拥有所有文件："
+
+msgid "Upload settings:"
+msgstr "上传设置："
+
+msgid "Upload bandwidth:"
+msgstr "上传带宽："
+
+msgid "Resume broken uploads:"
+msgstr "继续上传："
+
+msgid "Automatically delete aborted uploads:"
+msgstr "自动删除已终止的上传："
+
+msgid "KB/Sec"
+msgstr " KB/秒"
+
+msgid "Download settings:"
+msgstr "下载设置："
+
+msgid "Download bandwidth:"
+msgstr "下载带宽："
+
+msgid "Resume broken downloads:"
+msgstr "继续下传："
+
+msgid "KB/sec"
+msgstr " KB/秒 "
+
+msgid "FTP-TLS secure communications:"
+msgstr " FTP-TLS 安全交流："
+
+msgid "Use FTP-TLS:"
+msgstr " 使用FTP-TLS:"
+
+msgid "Require encrytion on channels:"
+msgstr "需要在信道上加密"
+
+msgid "Verify clients:"
+msgstr "验证客户端："
+
+msgid "Use these protocols:"
+msgstr "使用这些协议："
+
+msgid "TLS Logfile"
+msgstr " TLS 日志文件"
+
+msgid "RSA certificate file:"
+msgstr "RSA 认证文件："
+
+msgid "Create a new selfsigned certificate:"
+msgstr "创建一个新的自签名证书："
+
+msgid "DNS name or IP-address of this server:"
+msgstr " 这个服务器的DNS 名或IP地址："
+
+msgid "Email address:"
+msgstr "邮件地址："
+
+msgid "State or province:"
+msgstr "州或省："
+
+msgid "City or town:"
+msgstr "城市或乡镇："
+
+msgid "Organization:"
+msgstr "组织："
+
+msgid "Organizational unit:"
+msgstr "组织单位："
+
+msgid "Password:"
+msgstr "密码："
+
+msgid "Challenge password:"
+msgstr "挑战密码（Challenge password）："
+
+msgid "Number of bits:"
+msgstr "位数"
+
+msgid "Number of days the certificate is valid:"
+msgstr "认证的有效天数："
+
+msgid "Countrycode IE: SV, DK, US etc:"
+msgstr " Countrycode IE: SV、DK、US 等等:"
+
+msgid "Generate certificate:"
+msgstr "进行认证："
+
+msgid "Generate"
+msgstr "生成"
+
+msgid "Servers"
+msgstr "服务器"
+
+msgid "Add delete or make changes to users in the currently selected server."
+msgstr "在当前选中的服务器中添加、删除用户或修改用户。"
+
+msgid "Make a random username"
+msgstr "建立一个随机的用户名"
+
+msgid "Select the users root directory"
+msgstr "选中用户根目录"
+
+msgid "Root directory:"
+msgstr "根目录"
+
+msgid "Make a random password"
+msgstr "建立一个随机的密码"
+
+msgid "Select an upload directory below the users root directory"
+msgstr "选中用户根目录下的上传目录"
+
+msgid "Shell: "
+msgstr " Shell:"
+
+msgid "Create this upload directory"
+msgstr "创建上传目录"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Doubleclick to make changes to a user"
+msgstr "双击对用户进行修改"
+
+msgid "Users"
+msgstr "用户"
+
+msgid "Current usage, transferrates and terminating connections."
+msgstr "当前使用情况，传输率和终止连接。"
+
+msgid "Total bandwidth: "
+msgstr "带宽总量："
+
+msgid "Total incoming: "
+msgstr "输入总量："
+
+msgid " Total outgoing: "
+msgstr "外发总量："
+
+msgid "Username or PID:"
+msgstr "用户名或PID："
+
+msgid "Kicks the first matching username or the matching process number"
+msgstr "将第一个匹配的用户名或匹配的进程号踢出"
+
+msgid "Kick"
+msgstr " Kick "
+
+msgid "Kickbans the first matching username or the matching process number"
+msgstr "将第一个匹配的用户名或匹配的进程号踢出并禁止"
+
+msgid "Kickban"
+msgstr "Kickban"
+
+msgid "Transfers"
+msgstr "传输"
+
+msgid "Information about mounted devices."
+msgstr "关于已挂载设备的信息。"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Disk"
+msgstr "磁盘"
+
+msgid "Transferred files and statistics generation."
+msgstr "已传输的文件和生成统计表。"
+
+msgid "Generate:"
+msgstr "生成："
+
+msgid "Welcome"
+msgstr "欢迎"
+
+msgid "Clear"
+msgstr "清除"
+
+msgid "Files"
+msgstr "文件"
+
+msgid "This is the entire proftpd configuration."
+msgstr "这是proftpd全部配置。"
+
+msgid "Restore"
+msgstr "恢复"
+
+msgid "Backup"
+msgstr "备份"
+
+msgid "Check syntax"
+msgstr "检查语法"
+
+msgid "The server will not reread its configuration"
+msgstr "服务不会再次读取其配置"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Conf"
+msgstr "配置文件"
+
+msgid "Server security information."
+msgstr "服务器安全信息"
+
+msgid "Successful logins"
+msgstr "登录成功"
+
+msgid "Refused logins"
+msgstr "登录失败"
+
+msgid "Security"
+msgstr "安全"
+
+#, c-format
+msgid "Total number of imported users: %ld\n"
+msgstr "导入用户的总数：%ld\n"
+
+msgid "Select any users you want to import"
+msgstr "选中你想要导入的用户"
+
+msgid "Import users to the currently selected server."
+msgstr "将用户导入到当前选中的服务器中。"
+
+msgid "All selected users will be imported with the following settings:"
+msgstr "所有选中的用户将被导入，并具有以下设置："
+
+msgid "The users will have this root directory:"
+msgstr "用户将拥有这个根目录："
+
+msgid "They will have username based directories under the root directory:"
+msgstr "他们将有自己的用户名，这些用户名基于根目录下的目录："
+
+msgid "Add an upload directory under the root directory:"
+msgstr "将一个上传目录添加到根目录下："
+
+msgid ""
+"If you delete all text here and check the checkbutton then users will be "
+"able to upload directly in the root directory"
+msgstr ""
+"若在这里您删除了所有文本，并选中了复选框，那么用户将可以直接在根目录"
+"中进行上传了"
+
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "不能查找到pixmap文件: %s"
+

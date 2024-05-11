@@ -1,0 +1,1800 @@
+# GProftpd - Spanish translation(Peruvian spanish - visit Cusco today!!)
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the GProftpd package.
+# Diego Escalante <dieguito@gmail.com>, 2004
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 8.1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2004-06-16 19:02-0500\n"
+"PO-Revision-Date: 2004-06-16 19:02-0500\n"
+"Last-Translator: Diego Escalante <diego@gmail.com>\n"
+"Language-Team: ES <dieguito@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Error reading passwd here:\n"
+msgstr "Error al leer el password:\n"
+
+msgid ""
+"\n"
+"Not installed correctly ?.\n"
+msgstr ""
+"\n"
+"¿Instalación defectuosa?.\n"
+
+msgid "Error reading group here:\n"
+msgstr "Error al leer el grupo:\n"
+
+
+#, c-format
+msgid "User: %s could not be found in passwd or shadow.\n"
+msgstr "El usuario %s no pudo ser encontrado en los archivos passwd o shadow.\n"
+
+msgid "The password was not changed.\n"
+msgstr "El password del usuario no fue cambiado.\n"
+
+#, c-format
+msgid "Error changing password for user: %s\n"
+msgstr "Error al cambiar el password del usuario: %s\n"
+
+#, c-format
+msgid "No se pudo añadir el master ftpuser con el comando: %s\n"
+msgstr ""
+
+#, c-format
+msgid ""
+"The user: %s\n"
+"has been added to your system with a /bin/false shell\n"
+"and put in ftpusers, no password was set.\n"
+msgstr ""
+"El usuario: %s\n"
+"ha sido añadido al sistema con un shell /bin/false,\n"
+"además se le añadió al grupo ftpusers, no se estableció un password.\n"
+
+#, c-format
+msgid "Cant add the master ftp group with this command: %s\n"
+msgstr "No se pudo añadir el master ftp group con el comando: %s\n"
+
+#, c-format
+msgid ""
+"The group: %s\n"
+"has been added to your system.\n"
+msgstr ""
+"El grupo: %s\n"
+"fue añadido al sistema.\n"
+
+msgid "Cant write to ftpusers here:\n"
+msgstr "No se pudo escribir a ftpusers:\n"
+
+msgid ""
+"\n"
+"Run GProFTPD as root.\n"
+msgstr ""
+"\n"
+"Ejecute GProFTPD como usuario root.\n"
+
+msgid "Online"
+msgstr "Activado"
+
+msgid "Offline"
+msgstr "Desactivado"
+
+msgid ""
+"\n"
+"The server could not be turned off.\n"
+"\n"
+msgstr ""
+"\n"
+"El servidor no pudo ser desactivado.\n"
+"\n"
+
+msgid "Do you have another server running on this port ?\n"
+msgstr "¿Hay algún otro servidor activo en este puerto?\n"
+
+msgid "This could be a server running from inetd/xinetd.\n"
+msgstr "Podría ser un servidor ejecutándose desde inetd/xinetd.\n"
+
+msgid "The server is offline.\n"
+msgstr "El servidor está desactivado.\n"
+
+msgid "List server: Cant open proftpd.conf here:\n"
+msgstr "Listar servidor: No se pudo abrir el archivo proftpd.conf:\n"
+
+#, c-format
+msgid "A line with over 8000 chars is not valid in: %s\n"
+msgstr "Una línea de más de 8000 caracteres no es válida en: %s\n"
+
+msgid "on"
+msgstr "Activado"
+
+msgid "off"
+msgstr "Desactivado"
+
+msgid "binary"
+msgstr "binario"
+
+msgid "ascii"
+msgstr "ascii"
+
+msgid "GMT"
+msgstr "GMT"
+
+msgid "local time"
+msgstr "hora local"
+
+msgid "upper"
+msgstr "superior"
+
+msgid "lower"
+msgstr "inferior"
+
+msgid "both"
+msgstr "ambos"
+
+msgid "data"
+msgstr "datos"
+
+msgid "control"
+msgstr "control"
+
+msgid "User"
+msgstr "Usuario"
+
+msgid "Group"
+msgstr "Grupo"
+
+msgid "Root directory"
+msgstr "Directorio raíz"
+
+msgid "Require password"
+msgstr "Requerir password"
+
+msgid "Banned"
+msgstr "Baneado"
+
+msgid "Maximum connections"
+msgstr "Conexiones máximas"
+
+msgid "yes"
+msgstr "sí"
+
+msgid "no"
+msgstr "no"
+
+msgid "Address"
+msgstr "Dirección"
+
+msgid "Port"
+msgstr "Puerto"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "list_servers: Could not allocate enough memory\n"
+msgstr "list_servers: No se pudo reservar memoria suficiente.\n"
+
+#, c-format
+msgid ""
+"An entry in: %s\n"
+" is too long, please correct it.\n"
+msgstr ""
+"Una entrada en: %s\n"
+"es muy larga, por favor corríjala.\n"
+
+msgid "Mounted on"
+msgstr "Montado en"
+
+msgid "Free space"
+msgstr "Espacio libre"
+
+msgid "Used space"
+msgstr "Espacio usado"
+
+msgid "Total space"
+msgstr "Espacio total"
+
+msgid "Percent used"
+msgstr "Porcentaje usado"
+
+msgid "Device"
+msgstr "Dispositivo"
+
+msgid "Cant open the securitylog here:\n"
+msgstr "No se pudo abrir el registro de seguridad:\n"
+
+msgid "Could not allocate enough memory to read:\n"
+msgstr "No se pudo reservar memoria suficiente para leer:\n"
+
+msgid "Username"
+msgstr "Nombre de usuario"
+
+msgid "Action"
+msgstr "Acción"
+
+msgid "Filename"
+msgstr "Nombre de archivo"
+
+msgid "Bytes"
+msgstr "Bytes"
+
+msgid "Start of transfer"
+msgstr "Inicio de transferencia"
+
+msgid "Remote host"
+msgstr "Host remoto"
+
+msgid "list_files: Could not allocate enough memory\n"
+msgstr "list_files: No se pudo reservar memoria suficiente\n"
+
+#, c-format
+msgid ""
+"An entry in: %s\n"
+" is too long and has been shortened.\n"
+msgstr ""
+"Una entrada en: %s\n"
+"es muy larga y ha sido acortada.\n"
+
+msgid "Alot of these extremely long filnames will decrease startup speed.\n"
+msgstr "Muchos archivos con nombres largos reducirán la velocidad de inicio.\n"
+
+msgid "uploaded"
+msgstr "Subido"
+
+msgid "downloaded"
+msgstr "Descargado"
+
+msgid "deleted"
+msgstr "Borrado"
+
+msgid "Cant write the new proftpd.conf here:\n"
+msgstr "No se pudo escribir el nuevo archivo proftpd.conf:\n"
+
+msgid ""
+"\n"
+"Run GProFTPD as root\n"
+msgstr ""
+"\n"
+"Ejecute GProFTPD como usuario root\n"
+
+msgid "Cant allocate enough memory for the default values\n"
+msgstr "No se pudo reservar memoria para los valores por defecto\n"
+
+msgid "Cant allocate enough memory for the configuration.\n"
+msgstr "No se pudo reservar memoria para la configuración.\n"
+
+msgid "Cant get version from: \"proftpd -v\"\n"
+msgstr "No se pudo obtener la versión desde \"proftpd -v\"\n"
+
+msgid "ProFTPD must be installed and be in your path.\n"
+msgstr "ProFTPD debe estar instalado y en su path.\n"
+
+#, c-format
+msgid "Proftpd version: %s"
+msgstr "Proftpd versión: %s"
+
+#, c-format
+msgid "GProftpd version: %s"
+msgstr "GProftpd versión: %s"
+
+msgid "No version found"
+msgstr "No se encontraron versiones"
+
+msgid "Servername"
+msgstr "Nombre del servidor"
+
+msgid "Server type"
+msgstr "Tipo del servidor"
+
+msgid "Cant open shells for reading here:\n"
+msgstr "No se pudieron abrir shells para leer:\n"
+
+msgid "Cant open shells for writing /bin/false here:\n"
+msgstr "No se pudieron abrir shells para escribir /bin/false:\n"
+
+msgid "Couldnt find ftpusers here:\n"
+msgstr "No se pudo encontrar ftpusers:\n"
+
+msgid ""
+"\n"
+"so GProftpd made that file and added all users\n"
+msgstr ""
+"\n"
+"GProftpd creó el archivo y añadió a todos los usuarios\n"
+
+msgid "on the system to it. They are now banned from using the ftp server.\n"
+msgstr "del sistema a él. Ahora están baneados de usar el servidor ftp.\n"
+
+msgid "This in an auto-security feature.\n"
+msgstr "Esta es una característica de auto seguridad.\n"
+
+msgid "You must specify a username.\n"
+msgstr "Debe especificar un nombre de usuario.\n"
+
+msgid "Usernames are not allowed to begin with a number.\n"
+msgstr "No se permiten nombres de usuario que comienzen por un número.\n"
+
+msgid "Refusing to add user root.\n"
+msgstr "Negándose a agregar al usuario root.\n"
+
+msgid "A username containing < or > is not allowed.\n"
+msgstr "No se permiten nombres de usuario que contengan < o >.\n"
+
+msgid "The minimum password length is 6 chars.\n"
+msgstr "La longitud mínima de un password es 6 caracteres.\n"
+
+msgid "The minimum shell length is 3 chars.\n"
+msgstr "La longitud mínima del shell es 3 caracteres.\n"
+
+msgid "Mimimum directory path length is 1 char.\n"
+msgstr "La longitud mínima de un path es 1 caracter.\n"
+
+msgid "Error reading configuration:\n"
+msgstr "Error al leer la configuración:\n"
+
+msgid ""
+"\n"
+"Run gproftpd as root, not installed correctly ?.\n"
+msgstr ""
+"\n"
+"Ejecuta gproftpd como usuario root, ¿Mala instalación?.\n"
+
+msgid "That user already exists in this server in proftpd.conf.\n"
+msgstr "El usuario ya existe en este servidor, en proftpd.conf.\n"
+
+msgid "Nothing was changed.\n"
+msgstr "Nada fue cambiado.\n"
+
+msgid "Error adding the fake user with this command:\n"
+msgstr "Error al añadir al usuario falso con el comando:\n"
+
+msgid ""
+"\n"
+"add it in a terminal\n"
+msgstr ""
+"\n"
+"añadir en una terminal\n"
+
+msgid "Error adding the fake darwin user, add it manually.\n"
+msgstr "Error añadiendo el usuario falso darwin, añadalo manualmente.\n"
+
+msgid "Error adding the real user with this command:\n"
+msgstr "Error añadiendo el usuario real con el comando:\n"
+
+msgid "The system user was not added because uppercase\n"
+msgstr "El usuario de sistema no fue añadido por las letras capitales(mayúsculas)\n"
+
+msgid "or language specific letters arent allowed.\n"
+msgstr "o letras específicas del lenguaje que no están permitidas.\n"
+
+msgid "Could not read AllowUser here:\n"
+msgstr "No se pudo leer AllowUser:\n"
+
+msgid ""
+"\n"
+"Run gproftpd as root\n"
+msgstr ""
+"\n"
+"Ejecuta gproftpd como usuario root\n"
+
+msgid "Could not write the new userinformation to:\n"
+msgstr "No se pudo escribir la nueva información de usuario a:\n"
+
+msgid "Manually delete that user,\n"
+msgstr "Elimine manualmente al usuario,\n"
+
+msgid "could not delete it.\n"
+msgstr "no pudo ser eliminado.\n"
+
+msgid "Cant delete a user of zero length.\n"
+msgstr "No se puede eliminar un usuario de longitud cero.\n"
+
+msgid "Refusing to delete user root.\n"
+msgstr "Negando la eliminación del usuario root.\n"
+
+msgid "Cant open the configuration:\n"
+msgstr "No se pudo abrir el archivo de configuración:\n"
+
+msgid "Could not find the specified server\n"
+msgstr "No se pudo encontrar el servidor especificado\n"
+
+msgid "Try reselecting the server by doubleclicking on it.\n"
+msgstr "Intente reseleccionar el servidor haciendo doble click en el.\n"
+
+msgid "Error reading the configuration here:\n"
+msgstr "Error al leer la configuración:\n"
+
+#, c-format
+msgid "The user could not be found, this is a bug or %s has errors.\n"
+msgstr "El usuario no fue hallado, esto es un error o %s tiene errores.\n"
+
+msgid "run a syntax check to find out if there are any problems.\n"
+msgstr "ejecute una revisión de sintáxis para asegurarse que no hayan problemas.\n"
+
+msgid ""
+"\n"
+"The minimum password length is 6 chars.\n"
+msgstr ""
+"\n"
+"La longitud mínima de un password es de 6 caracteres.\n"
+
+msgid ""
+"\n"
+"The Password was changed.\n"
+msgstr ""
+"\n"
+"El password fue cambiado.\n"
+
+msgid "The user didnt exist in shadow or passwd.\n"
+msgstr "El usuario no existía en passwd o shadow.\n"
+
+msgid ""
+"\n"
+"Cant open proftpd.conf\n"
+msgstr ""
+"\n"
+"No se pudo abrir proftpd.conf\n"
+
+msgid ""
+"If there are no complaints the configuration is ok...\n"
+"\n"
+msgstr ""
+"Si no hay advertencias o quejas, la configuración está bien...\n"
+"\n"
+
+msgid ""
+"\n"
+"Check completed."
+msgstr ""
+"\n"
+"Revisión completa."
+
+#, c-format
+msgid ""
+"Cant write to proftpd.conf here: \n"
+"%s\n"
+msgstr ""
+"No se pudo escribir a proftpd.conf: \n"
+"%s\n"
+
+msgid "You must specify a username or process number.\n"
+msgstr "Debes especificar un nombre de usuario o número de proceso.\n"
+
+msgid "popen error, user not kicked\n"
+msgstr "error de popen, el usuario no fue echado\n"
+
+msgid "User or pid not found.\n"
+msgstr "Usuario o pid no encontrados.\n"
+
+msgid "popen error, user not kicked or banned.\n"
+msgstr "error de popen, el usuario no fue echado ni baneado.\n"
+
+#, c-format
+msgid ""
+"The user was not banned, could not write to:\n"
+"%s"
+msgstr ""
+"El usuario no fue baneado, no se pudo escribir a:\n"
+"%s"
+
+msgid "Cant ban a non active user by PID.\n"
+msgstr "No se puede banear a un usuario no activo por su PID.\n"
+
+msgid "Misspelled maybe ?\n"
+msgstr "¿Mal escrito quizá?\n"
+
+msgid "The user was already banned.\n"
+msgstr "El usuario ya se encontraba baneado.\n"
+
+msgid "The user was not currently in the ftp.\n"
+msgstr "El usuario no estaba, actualmente, en el ftp.\n"
+
+msgid "The user was banned but not kicked.\n"
+msgstr "El usuario fue baneado, pero no echado.\n"
+
+msgid "The user was kicked and banned.\n"
+msgstr "El usuario fue echado y baneado.\n"
+
+msgid "Welcome message generation failed"
+msgstr "Generación de mensaje de bienvenida fallida"
+
+msgid "No xferlog records found or popen failed\n"
+msgstr "No se encontraron registros de xfer, o popen falló al abrirlos\n"
+
+msgid "Every certificate field must be filled in\n"
+msgstr "Todo campo de certificado debe ser llenado\n"
+
+msgid "This step can take a while"
+msgstr "Este paso puede tomar un tiempo"
+
+msgid "The certificate has been created successfully\n"
+msgstr "El certificado fue creado exitosamente\n"
+
+msgid "and placed in the correct location.\n"
+msgstr "y puesto en el lugar correcto.\n"
+
+msgid "It will be used by new FTP-TLS logins.\n"
+msgstr "Será usado por los nuevos logins FTP-TLS\n"
+
+msgid "The certificate has not been created, something went wrong.\n"
+msgstr "El certificado no fue creado, algo salió mal.\n"
+
+msgid "Cant open proftpd.conf for writing here:\n"
+msgstr "No se pudo abrir proftpd.conf para escribir:\n"
+
+msgid "Cant allocate enough memory for adding a new server\n"
+msgstr "No se pudo reservar memoria suficiente para añadir un nuevo servidor\n"
+
+msgid "The standard server can not be deleted.\n"
+msgstr "El servidor estándar no puede ser eliminado.\n"
+
+msgid "Setting a servers port to 0 disables it.\n"
+msgstr "Estableciendo el puerto de un servidor a 0, lo deshabilita.\n"
+
+msgid "Refusing to delete a server with no specified name.\n"
+msgstr "Rehusando eliminar un servidor sin nombre especificado.\n"
+
+msgid "Refusing to delete a server with no specified port.\n"
+msgstr "Rehusando eliminar un servidor sin puerto especificado.\n"
+
+msgid "Cant open the proftpd.conf here:\n"
+msgstr "No se pudo abrir proftpd.conf:\n"
+
+msgid "Could not delete the specified server\n"
+msgstr "No se pudo borrar el servidor especificado\n"
+
+msgid "Refusing to change a server without a specified name.\n"
+msgstr "Rehusando cambiar el servidor sin un nombre especificado.\n"
+
+msgid "Refusing to change a server without a specified port.\n"
+msgstr "Rehusando cambiar el servidor sin un puerto especificado.\n"
+
+msgid "Cant open proftpd.conf here:\n"
+msgstr "No se pudo abrir proftpd.conf:\n"
+
+msgid "Could not find the specified server, no changes where made.\n"
+msgstr "No se pudo encontrar el servidor especificado, no se realizaron cambios.\n"
+
+msgid "GProftpd help"
+msgstr "Ayuda de GProftpd"
+
+msgid ""
+"\n"
+"When gproftpd is started it checks if you have all required files and that "
+"the environment is ok.\n"
+"\n"
+msgstr ""
+"\n"
+"Cuando gproftpd inicia, revisa que tenga todos los archivos requeridos y que "
+"el entorno sea correcto.\n"
+"\n"
+
+msgid ""
+"If you have just upgraded you should check out the homepage if any additions "
+"to the configuration are\n"
+msgstr ""
+"Si acaba de actualizar debería revisa la página web de gproftpd para ver si alguna adición "
+"a la configuración es\n"
+
+msgid ""
+"necessary in order to take full advantage of all its features.\n"
+"\n"
+msgstr ""
+"necesaria para tomar ventaja total de las características de gproftpd.\n"
+"\n"
+
+msgid ""
+"Proftpd must be installed and located somewhere in the environments path "
+"variable\n"
+"\n"
+"\n"
+msgstr ""
+"Proftpd debe estar instalado y localizado en algún lugar de la variable path"
+"\n"
+"\n"
+
+msgid ""
+"When you add a user you can randomize its name and password or use your "
+"own.\n"
+msgstr ""
+"Cuando añade un usuario puede crear un nombre y password aleatorio o usar "
+"uno propio.\n"
+
+msgid ""
+"You can also select its login shell and where this user should have its root "
+"directory and upload directory.\n"
+msgstr ""
+"También puede elegir su shell de login y dónde debe tener este usuario su directorio "
+"raíz y directorio de subida.\n"
+
+msgid ""
+"If the selected shell is /bin/false, /sbin/nologin etc the user can only "
+"login to this ftpserver otherwise\n"
+msgstr ""
+"Si el shell seleccionado es /bin/false, /sbin/nologin, etc, el usuario solo puede "
+"loguearse a este servidor, de lo contrario\n"
+
+msgid ""
+"that user gets a private home directory as well as its ftp directory and can "
+"login via ssh etc if that server\n"
+msgstr ""
+"ese usuario obtiene un directorio home, así como un directorio ftp y puede "
+"loguearse via ssh si el servidor\n"
+
+msgid ""
+"allows this user to do so.\n"
+"\n"
+msgstr ""
+"se lo permite.\n"
+"\n"
+
+msgid "The upload directory must be located below the users root directory.\n"
+msgstr "El directorio de subida debe estar localizado debajo del directorio raíz del usuario.\n"
+
+msgid ""
+"If you dont want that user to have an upload directory you can uncheck the "
+"checkbox next to it.\n"
+"\n"
+msgstr ""
+
+msgid ""
+"If you want to add directories thats not under the users root directory you "
+"can do this:\n"
+"\n"
+msgstr ""
+"Si desea añadir directorios que no se encuentre bajo el directorio raíz del usuario, "
+"puerde hacer esto:\n"
+"\n"
+
+msgid "Linux (a partir del kernel 2.4.0):\n"
+msgstr ""
+
+msgid ""
+"mount --bind /some/directory/to/share /home/ftp/make_this_directory_first\n"
+"\n"
+msgstr ""
+
+msgid ""
+"Alternatively:\n"
+"mount -o bind /var/data /home/ftp/bob/data\n"
+"\n"
+msgstr ""
+"Alternativamente:\n"
+"mount -o bind /var/data /home/ftp/bob/data\n"
+"\n"
+
+msgid ""
+"*BSD (as of 4.4BSD):\n"
+"mount_null /var/data /home/ftp/bob/data\n"
+"\n"
+msgstr ""
+"*BSD (a partir de 4.4BSD):\n"
+"mount_null /var/data /home/ftp/bob/data\n"
+"\n"
+
+msgid ""
+"Solaris:\n"
+"mount -F lofs /var/data /home/ftp/bob/data\n"
+"\n"
+msgstr ""
+
+msgid ""
+"If you want automatically generated statistics you can use gprostats with "
+"crond\n"
+msgstr ""
+"Si desea estadísticas automáticamente generadas, entonces puede usar gprostats con "
+"crond\n"
+
+msgid ""
+"or press the welcome and html statistics buttons in the files tab to make "
+"them once.\n"
+"\n"
+msgstr ""
+"o presionar los botones de bienvenida y estadística en las pestañas de los archivos a realizar "
+"\n"
+
+msgid ""
+"With crond and gprostats you can do this to have it automatically update the "
+"statistics:\n"
+msgstr ""
+"Con crond y gprostats puede hacer esto para actualizar automáticamente las  "
+"estadísticas:\n"
+
+msgid ""
+"gprostats -html /path/to/output.html\n"
+"gprostats -w welcome.msg\n"
+msgstr ""
+
+msgid ""
+"or both at the same time: gprostats -html /path/to/output.html -w welcome."
+"msg\n"
+msgstr ""
+"o ambos a la vez: gprostats -html /path/to/output.html -w welcome."
+"msg\n"
+
+msgid ""
+"Use -c /path/to/proftpd.conf -x /path/to/xferlog if you need to.\n"
+"\n"
+msgstr ""
+"Use -c /path/to/proftpd.conf -x /path/to/xferlog si lo necesita.\n"
+"\n"
+
+msgid ""
+"If you have made customized welcome messages and dont want them overwritten\n"
+msgstr ""
+"Si ha creado mensajes de bienvenida personalizados y no desea que se sobreescriban\n"
+
+msgid ""
+"by gprostats you can configure this by doubleclicking a user and unchecking "
+"update statistics.\n"
+msgstr ""
+"por gprostats, puede configurar esto mediante un doble click al usuario y luego deseleccionando "
+"actualizar estadísticas.\n"
+
+msgid ""
+"then pressing the change button, this will also exclude the user from the "
+"html output.\n"
+"\n"
+msgstr ""
+"luego, presione el botón cambiar, esto también excluirá al usuario de "
+"salida html.\n"
+"\n"
+
+msgid ""
+"Some typical setups:\n"
+"\n"
+"If one or more of your users needs to have upload access to a http servers "
+"directory:\n"
+"\n"
+msgstr ""
+"Algunas configuraciones típicas:\n"
+"\n"
+"Si uno o más de sus usuarios necesita acceso de subida al directorio del servidor http:"
+"\n"
+"\n"
+
+msgid ""
+"1. Set the users ftp root directory to the webserver's root directory /var/"
+"www/html\n"
+msgstr ""
+"1. Establezca el directorio raíz del ftp al directorio raíz del servidor http /var/"
+"www/html\n"
+
+msgid ""
+"   or /var/www/html/this_users_directory for a private homepage.\n"
+"\n"
+msgstr ""
+"   o la ruta a una homepage privada.\n"
+"\n"
+
+msgid ""
+"2. Take away all text from the upload directory field\n"
+"\n"
+msgstr ""
+"2. Quite todo el texto del campo directorio de subida\n"
+"\n"
+
+msgid "3. Make sure the checkbutton next to the upload directory is checked.\n"
+msgstr "3. Asegurese que el botón de selección esté marcado.\n"
+
+msgid ""
+"   Press the add button to add this user.\n"
+"\n"
+msgstr ""
+"   Presione el botón añadir para añadir este usuario.\n"
+"\n"
+
+msgid ""
+"4. You can now login as this user and upload to the html directory.\n"
+"\n"
+"\n"
+msgstr ""
+"4. Ahora puede loguearse como este usuario y subir archivos al directorio html.\n"
+"\n"
+"\n"
+
+msgid ""
+"To add anonymous readonly access to a directory you can do this:\n"
+"\n"
+msgstr ""
+"Para añadir acceso anónimo a un servidor puede:\n"
+"\n"
+
+msgid "1. Type anonymous in the username field. \n"
+msgstr "1. Escribir anonymous en el campo de usuario.\n"
+
+msgid ""
+"    Press the password randomize button or type any password you want.\n"
+msgstr ""
+"    Presione el botón password aleatorio o escriba el password que desee.\n"
+
+msgid "    Select the /bin/false shell.\n"
+msgstr "    Seleccione el shell /bin/false.\n"
+
+msgid "    Uncheck the upload checkbutton, this is important.\n"
+msgstr "    Deseleccione el botón de subida, esto es importante.\n"
+
+msgid ""
+"    Press add to add this anonymous user.\n"
+"\n"
+msgstr ""
+"    Presione añadir para añadir este usuario anónimo.\n"
+"\n"
+
+msgid ""
+"2. Doubleclick that user in the users tab and set require password to off "
+"then\n"
+msgstr ""
+"2. Haga doble click en el usuario en la pestaña de usuarios y establezca requerir password a desactivado "
+"luego\n"
+
+msgid ""
+"    check that this user isnt banned then press the change button.\n"
+"\n"
+msgstr ""
+"    revise si el usuario no está baneado y presione el botón cambiar.\n"
+"\n"
+
+msgid ""
+"4. You can now login as anonymous with no password.\n"
+"\n"
+"\n"
+msgstr ""
+"4. Ya puede loguearse como anonymous sin password.\n"
+"\n"
+"\n"
+
+msgid ""
+"This is the default setting, one upload directory and a readonly ftp root "
+"directory:\n"
+msgstr "Esta es la configuración por defecto, un directorio de subida y otro de solo lectura como raíz:\n"
+
+msgid "Root directory: /home/ftp\n"
+msgstr "Directorio raíz: /home/ftp\n"
+
+msgid ""
+"Upload directory /home/ftp/upload\n"
+"\n"
+msgstr ""
+"Directorio de subida /home/ftp/upload\n"
+"\n"
+
+msgid ""
+"The users can then upload files in the upload directory and download from "
+"the\n"
+msgstr ""
+"Los usuarios puede subir archivos al directorio de subida y descargar "
+"del\n"
+
+msgid ""
+"ftp root directory where you can put what you want to share.\n"
+"\n"
+msgstr ""
+"directorio raíz del ftp, donde puede colocar lo que desée compartir.\n"
+"\n"
+
+msgid ""
+"You can easily add more servers to run on different interfaces and ports.\n"
+msgstr ""
+"Puede añadir facilmente, más servidor y ejecutarlos en distintas interfaces y distintos puertos.\n"
+
+msgid ""
+"When a user connects to one address and port it gets access according to "
+"that servers\n"
+msgstr ""
+"Cuando un usuario se conecta a una dirección y puerto, obtiene acceso de acuerdo a"
+"ese servidor\n"
+
+msgid ""
+"configuration but only if the server is selected to bind to addresses.\n"
+msgstr ""
+"y su configuración, pero sólo si se selecciona asociar direcciones.\n"
+
+msgid ""
+"There are two directives used for this:\n"
+"Bind and SocketBindTight.\n"
+msgstr ""
+"Hay dos directivas usadas para esto:\n"
+"Bind y SocketBindTight.\n"
+
+msgid ""
+"If you want to turn off a server without deleting it you can set its port "
+"value to 0\n"
+"\n"
+msgstr ""
+"Si desea desactivar un servidor sin tener que eliminarlo, puede establecer su puerto "
+"al valor 0\n"
+"\n"
+
+msgid ""
+"If this Proftpd server is behind a NAT gateway you should specify the "
+"gateways\n"
+msgstr ""
+"Si este servidor Proftpd está detrás de una pasarela NAT, debe especificar la "
+"pasarela y su\n"
+
+msgid ""
+"DNS name or IP address otherwise turn it off.\n"
+"\n"
+msgstr ""
+"Nombre DNS o dirección IP, de otro modo desactívelo.\n"
+"\n"
+
+msgid ""
+"If you copy or move a file directly to the ftpservers directory you may need "
+"to\n"
+msgstr ""
+"Si copia o mueve un archivo directamente al directorio de servidores ftp, puede necesitar"
+"hacer\n"
+
+msgid ""
+"chmod it with 644 and chmod directories to 755 so that the directory and "
+"file can be accessed.\n"
+"\n"
+msgstr ""
+"chmod 644 y chmod 755 directorios, así los directorios y "
+"archivos pueden ser usados.\n"
+"\n"
+
+msgid ""
+"This is one way of chmodding all files recursively in the directory /home/"
+"ftp:\n"
+msgstr ""
+"Esta es una manera de cambiar los permisos de los archivos dentro de /home/"
+"ftp:\n"
+
+msgid ""
+"find /home/ftp -type f -exec chmod 644  -v {} \\;\n"
+"\n"
+msgstr ""
+
+msgid ""
+"Upload directories should have a chmod of 777 and this can be used for /home/"
+"ftp/upload\n"
+msgstr ""
+"Directorios de subida deben ser chmod 777 esto puede ser usado para /home/"
+"ftp/upload\n"
+
+msgid ""
+"find /home/ftp/upload -type d -exec chmod 777  -v {} \\;\n"
+"\n"
+"\n"
+msgstr ""
+
+msgid ""
+"For more detailed information about the server and its configuration "
+"directives visit:\n"
+msgstr ""
+"Para información más detallada acerca del servidor y su configuración "
+"visite:\n"
+
+msgid "http://www.proftpd.org\n"
+msgstr ""
+
+msgid "Close"
+msgstr "Cerrar"
+
+msgid "Shutdown"
+msgstr "Desconectar"
+
+msgid "The server will shut down according to these settings."
+msgstr "El servidor se desconectará de acuerdo a esta configuración:"
+
+msgid "Time to real shutdown:"
+msgstr "Tiempo hasta la verdadera desconexión:"
+
+msgid "now, +Minutes or HHMM"
+msgstr "now, +Minutes o HHMM"
+
+msgid "New access disabled:"
+msgstr "Nuevo acceso deshabilitado:"
+
+msgid "Minutes before real shutdown."
+msgstr "Minutos antes de la verdadera desconexión."
+
+msgid "Existing users disconnected:"
+msgstr "Usuarios existentes desconectados:"
+
+msgid "Shutdown message:"
+msgstr "Mensaje de desconexión:"
+
+#, c-format
+msgid "%s , Current connections will be dropped: %d"
+msgstr "%s, la conexión actual será terminada: %d"
+
+msgid "Pressing the online button will let users login again."
+msgstr "Al presionar el botón activado, permitirá a los usuarios loguearse de nuevo."
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "OK"
+msgstr "Ok"
+
+msgid "GProFTPD information"
+msgstr "Información de GProFTPD"
+
+msgid "User settings"
+msgstr "Configuración del usuario"
+
+msgid "These are the settings for this user."
+msgstr "Esta es la configuración para este usuario."
+
+msgid "Username:          "
+msgstr "Usuario:          "
+
+msgid "Password:          "
+msgstr "Password:          "
+
+msgid "Group:                 "
+msgstr "Grupo:                 "
+
+msgid "Require password:"
+msgstr "Requerir password:"
+
+msgid "Allow logins from:"
+msgstr "Permitir logins de:"
+
+msgid "Maximum logins:  "
+msgstr "Logins máximos:  "
+
+msgid "Message:            "
+msgstr "Mensaje:            "
+
+msgid "Root directory:    "
+msgstr "Directorio raíz:    "
+
+msgid "Update statistics:"
+msgstr "Actualizar estadísticas:"
+
+msgid "Banned:"
+msgstr "Baneado:"
+
+msgid "Type a password longer then 6 chars to change."
+msgstr "Introduzca un password mayor de 6 caracteres para cambiar."
+
+msgid "all,none,192.168.0.,host.domain.edu,.trusted-domain.org"
+msgstr ""
+
+msgid "Upload directory:"
+msgstr "Directorio de subida:"
+
+msgid "This user is permitted to do the following in this directory:"
+msgstr "Se le permite a este usuario, hacer lo siguiente en este directorio:"
+
+msgid "List:"
+msgstr "Listar:"
+
+msgid "Upload:"
+msgstr "Subir:"
+
+msgid "Append:"
+msgstr "Anexar:"
+
+msgid "Download:"
+msgstr "Descargar:"
+
+msgid "Rename:"
+msgstr "Renombrar:"
+
+msgid "Delete:"
+msgstr "Eliminar:"
+
+msgid "Create directory:"
+msgstr "Crear directorio"
+
+msgid "Remove directory:"
+msgstr "Remover directorio"
+
+msgid "Site:"
+msgstr "Sitio:"
+
+msgid "Show dates:"
+msgstr "Mostrar fechas:"
+
+msgid "Show current path:"
+msgstr "Mostrar el path actual:"
+
+msgid "Show filesize:"
+msgstr "Mostrar tamaño de archivo"
+
+msgid "Change working directory:"
+msgstr "Cambiar directorio de trabajo:"
+
+msgid "Change mode:"
+msgstr "Modo de cambio:"
+
+msgid "Change group:"
+msgstr "Cambiar grupo:"
+
+msgid "Cdup:"
+msgstr "Cdup:"
+
+msgid "Show connection settings:"
+msgstr "Mostrar configuración de conexión:"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid "Change"
+msgstr "Cambiar"
+
+msgid "About"
+msgstr "Acerca de"
+
+msgid "Author: "
+msgstr "Autor: "
+
+msgid "I want to thank the following for their contributions:"
+msgstr "Deseo agraceder a los siguientes por sus contribuciones:"
+
+msgid "for the icons and the weblogo.\n"
+msgstr "por los íconos y el logo de la web.\n"
+
+msgid "for coding support and testing.\n"
+msgstr "por la asistencia en el código y las pruebas.\n"
+
+msgid "The people at the GTK+ development lists.\n"
+msgstr "La gente en las listas de desarrollo GTK+.\n"
+
+msgid "for the RPM spec file."
+msgstr "por el spec de los RPM."
+
+msgid "And all translators:"
+msgstr "Y a todos los traductores:"
+
+msgid "Afrikaans"
+msgstr ""
+
+msgid "Amharic"
+msgstr ""
+
+msgid "Arabic"
+msgstr ""
+
+msgid "Azerbaijani"
+msgstr ""
+
+msgid "Basque"
+msgstr ""
+
+msgid "Bulgarian"
+msgstr ""
+
+msgid "Breton"
+msgstr ""
+
+msgid "Brittish-English"
+msgstr ""
+
+msgid "Bosnian"
+msgstr ""
+
+msgid "Byelorussian"
+msgstr ""
+
+msgid "Catalan"
+msgstr ""
+
+msgid "Chinese"
+msgstr ""
+
+msgid "Chinese-Taiwan"
+msgstr ""
+
+msgid "Croatian"
+msgstr ""
+
+msgid "Czech"
+msgstr ""
+
+msgid "Danish"
+msgstr ""
+
+msgid "Dutch"
+msgstr ""
+
+msgid "Esperanto"
+msgstr ""
+
+msgid "Estonian"
+msgstr ""
+
+msgid "Finnish"
+msgstr ""
+
+msgid "French"
+msgstr ""
+
+msgid "Galician"
+msgstr ""
+
+msgid "German"
+msgstr ""
+
+msgid "Greek"
+msgstr ""
+
+msgid "Hebrew"
+msgstr ""
+
+msgid "Hini"
+msgstr ""
+
+msgid "Hungarian"
+msgstr ""
+
+msgid "Icelandic"
+msgstr ""
+
+msgid "Indonesian"
+msgstr ""
+
+msgid "Irish"
+msgstr ""
+
+msgid "Italian"
+msgstr ""
+
+msgid "Japanese"
+msgstr ""
+
+msgid "Korean"
+msgstr ""
+
+msgid "Kurdish"
+msgstr ""
+
+msgid "Latvian-Lettish"
+msgstr ""
+
+msgid "Lithuanian"
+msgstr ""
+
+msgid "Macedonian"
+msgstr ""
+
+msgid "Maori"
+msgstr ""
+
+msgid "Maltese"
+msgstr ""
+
+msgid "Norwegian"
+msgstr ""
+
+msgid "Polish"
+msgstr ""
+
+msgid "Portuguese"
+msgstr ""
+
+msgid "Portuguese-Brazil"
+msgstr ""
+
+msgid "Romanian"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
+
+msgid "Serbian"
+msgstr ""
+
+msgid "Slovak"
+msgstr ""
+
+msgid "Slovenian"
+msgstr ""
+
+msgid "Spanish"
+msgstr ""
+
+msgid "Swedish"
+msgstr ""
+
+msgid "Tamil"
+msgstr ""
+
+msgid "Thai"
+msgstr ""
+
+msgid "Turkish"
+msgstr ""
+
+msgid "Traditional Chinese"
+msgstr ""
+
+msgid "Ukrainian"
+msgstr ""
+
+msgid "Vietnamese"
+msgstr ""
+
+msgid "Wallon"
+msgstr ""
+
+msgid "Welch"
+msgstr ""
+
+msgid "And a big thanks to the Proftpd team.\n"
+msgstr "Y un gran agradecimiento al equipo de Proftpd.\n"
+
+msgid "Choose the users root directory"
+msgstr "Elija el directorio raíz de usuario"
+
+msgid "Choose an upload directory (must be below the users directory)"
+msgstr "Elija un directorio de subida (debe estar por debajo del directorio de usuario)"
+
+msgid "GProftpd question"
+msgstr "Pregunta de GProftpd"
+
+msgid ""
+"GProftpd could not find proftpd.conf or you are using\n"
+"the basic configuration wich doesnt have all features\n"
+"that gproftpd's default configuration has.\n"
+"\n"
+"If you use proftpd's default configuration and dont\n"
+"want to see this question again, take away the line:\n"
+"# Port 21 is the standard ftp port.\n"
+"\n"
+"Do you want to overwrite proftpd.conf with GProftpd's\n"
+"default configuration ?\n"
+"\n"
+"              (If you dont know then press yes)\n"
+msgstr ""
+"GProftpd no pudo encontrar proftpd.conf, o está usando\n"
+"la configuración básica, que no posée todas las características\n"
+"que la configuración por defecto de gproftpd tiene.\n"
+"\n"
+"Si ua la configuración por defecto de proftpd y no\n"
+"desea ver este aviso de nuevo, quite la línea:\n"
+"# Port 21 is the standard ftp port.\n"
+"\n"
+"¿Desea sobreescribir proftpd.conf con la configuración por defecto de\n"
+"GProftpd?\n"
+"\n"
+"              (Si duda, presione Sí)\n"
+
+msgid "Yes"
+msgstr "Sí"
+
+msgid "No"
+msgstr "No"
+
+msgid "GProFTPD Password"
+msgstr "Password de GProFTPD"
+
+msgid "This user already existed in the system."
+msgstr "Este usuario ya existe en el sistema."
+
+msgid "Username:"
+msgstr "Usuario:"
+
+msgid "New password: "
+msgstr "Nuevo password: "
+
+msgid "Do you want to change the users password ?"
+msgstr "¿Desea cambiar el password de los usuarios?"
+
+msgid "Dont change"
+msgstr "No cambiar"
+
+msgid "Delete the system user ?"
+msgstr "¿Eliminar el usuario de sistema?"
+
+msgid "Do you also want to delete the system user ?"
+msgstr "¿También desea eliminar el usuario de sistema?"
+
+msgid "Username: "
+msgstr "Usuario:"
+
+msgid "Add this needed master ftpuser ?"
+msgstr "¿Añadir este, necesario, master ftpuser?"
+
+msgid "GProftpd needs to add the user and group the server will runs as."
+msgstr "GProftpd necesita añadir el usuario y grupo como los cuales se ejecutará el servidor."
+
+msgid "User and groupname:"
+msgstr "Usuario y nombre de grupo:"
+
+msgid "This action is necessary, do you want to do it ?"
+msgstr "Esta acción es necesaria, ¿quiere realizarla?"
+
+msgid "   Online    "
+msgstr "   Activado    "
+
+msgid "    Offline    "
+msgstr "    Desactivado    "
+
+msgid " Shutdown "
+msgstr " Detener "
+
+msgid "   ReRead   "
+msgstr "   Releer   "
+
+msgid "      Help      "
+msgstr "      Ayuda      "
+
+msgid "   About   "
+msgstr "   Acerca de   "
+
+msgid "      Quit      "
+msgstr "      Salir      "
+
+msgid "Information:"
+msgstr "Información:"
+
+msgid "proftpd -v failed."
+msgstr "proftpd -v falló."
+
+msgid "The server is currently:"
+msgstr "El servidor es actualmente:"
+
+msgid "Cant determine."
+msgstr "No se pudo determinar."
+
+msgid "This is the configuration for the currently selected server."
+msgstr "Esta es la configuración para el servidor seleccionado."
+
+msgid "Import"
+msgstr "Importar"
+
+msgid "Add Server"
+msgstr "Añadir servidor"
+
+msgid "Delete server"
+msgstr "Eliminar servidor"
+
+msgid "Apply"
+msgstr "Aplicar"
+
+msgid "DNS name or ip address of the server:"
+msgstr "Nombre DNS o dirección IP del servidor:"
+
+msgid "Show alternate server identity:"
+msgstr "Mostrar identidad alternativa del servidor:"
+
+msgid "NAT gateway address:"
+msgstr "Dirección de la pasarela NAT:"
+
+msgid "The administrators email address:"
+msgstr "El correo electrónico del/los administrador(es):"
+
+msgid "To listen on all interfaces 0.0.0.0 can be used"
+msgstr "Para escuchar en todas las interfaces, 0.0.0.0 puede ser usado"
+
+msgid "Only use this if you are behind a NAT gateway"
+msgstr "Sólo use esto si se encuentra detrás de una pasarela NAT"
+
+msgid "Bind servers to their addresses:"
+msgstr "Asociar servidores a sus direcciones:"
+
+msgid "Identity lookups:"
+msgstr "Búsqueda de identidad:"
+
+msgid "Reverse lookups:"
+msgstr "Búsqueda en reversa:"
+
+msgid "Timestandard:"
+msgstr "Estándar de tiempo:"
+
+msgid "The port the server listens on:"
+msgstr "El puerto en el que escucha el servidor:"
+
+msgid "Passive ports range:"
+msgstr "Rango de puertos pasivos"
+
+msgid "Maximum connections for each server:"
+msgstr "Máximo número de conexiones para cada servidor:"
+
+msgid "Max login attempts before disconnected:"
+msgstr "Máximo número de intentos de login antes de la desconexión:"
+
+msgid "Login timeout:"
+msgstr "Tiempo "
+
+msgid "Idle timeout:"
+msgstr "Tiempo inactivo:"
+
+msgid "Randomized username length:"
+msgstr "Longitud del nombre de usuario aleatoria:"
+
+msgid "Randomized password length:"
+msgstr "Longitud del password aleatoria:"
+
+msgid "Randomize to upper or lower case:"
+msgstr "Mayúsculas o minúsculas, aleatoriamente:"
+
+msgid "Default transfermode:"
+msgstr "Modo de transferencia por defecto:"
+
+msgid "FXP transfers:"
+msgstr "Transferencias FXP:"
+
+msgid "gmt"
+msgstr "GMT"
+
+msgid "0 is offline"
+msgstr "0 es desconectado"
+
+msgid "Seconds"
+msgstr "Segundos"
+
+msgid "Useradds default root directory path:"
+msgstr "Directorio raíz por defecto de usuarios añadidos:"
+
+msgid "Useradds default upload directory:"
+msgstr "Directorio de subida por defecto de usuarios añadidos:"
+
+msgid "Statistics default html path:"
+msgstr "Path html por defecto de estadísticas:"
+
+msgid "Statistics default welcome name:"
+msgstr "Nombre de bienvenida por defecto de estadísticas:"
+
+msgid "The systems logfile:"
+msgstr "El archivo de registro del sistema:"
+
+msgid "The server runs as this user:"
+msgstr "Este servidor se ejecuta como este usuario"
+
+msgid "The server runs as this group:"
+msgstr "Este servidor se ejecuta como este grupo:"
+
+msgid "This fake user owns all files:"
+msgstr "Este usuario falso posée todos los archivos:"
+
+msgid "This fake group owns all files:"
+msgstr "Este grupo falso posée todos los archivos:"
+
+msgid "Upload settings:"
+msgstr "Configuración de subida:"
+
+msgid "Upload bandwidth:"
+msgstr "Ancho de banda de subida:"
+
+msgid "Resume broken uploads:"
+msgstr "Resumir subidas interrumpidas"
+
+msgid "Automatically delete aborted uploads:"
+msgstr "Eliminar automáticamente las subidas abortados"
+
+msgid "KB/Sec"
+msgstr "Kb/s"
+
+msgid "Download settings:"
+msgstr "Configuración de descarga:"
+
+msgid "Download bandwidth:"
+msgstr "Ancho de banda de descarga:"
+
+msgid "Resume broken downloads:"
+msgstr "Resumir descargas inconclusas:"
+
+msgid "KB/sec"
+msgstr "Kb/s"
+
+msgid "FTP-TLS secure communications:"
+msgstr "Comunicaciones seguras FTP-TLS:"
+
+msgid "Use FTP-TLS:"
+msgstr "Usar FTP-TLS:"
+
+msgid "Require encrytion on channels:"
+msgstr "Requerir cifrado en los canales:"
+
+msgid "Verify clients:"
+msgstr "Verificar clientes:"
+
+msgid "Use these protocols:"
+msgstr "Usar estos protocolos:"
+
+msgid "TLS Logfile"
+msgstr "Archivo de registro TLS"
+
+msgid "RSA certificate file:"
+msgstr "Archivo de certificación RSA"
+
+msgid "Create a new selfsigned certificate:"
+msgstr "Crear un nuevo certificado auto firmado:"
+
+msgid "DNS name or IP-address of this server:"
+msgstr "Nombre DNS o dirección IP de éste servidor:"
+
+msgid "Email address:"
+msgstr "Dirección de correo electrónico:"
+
+msgid "State or province:"
+msgstr "Estado o provincia"
+
+msgid "City or town:"
+msgstr "Ciudad o pueblo:"
+
+msgid "Organization:"
+msgstr "Organización:"
+
+msgid "Organizational unit:"
+msgstr "Unidad orgánica:"
+
+msgid "Password:"
+msgstr "Passsword:"
+
+msgid "Challenge password:"
+msgstr "Password de reto:"
+
+msgid "Number of bits:"
+msgstr "Número de bits"
+
+msgid "Number of days the certificate is valid:"
+msgstr "Número de días en los que el certificado es válido"
+
+msgid "Countrycode IE: SV, DK, US etc:"
+msgstr "Código de país IE: SV, DK, PE, US etc"
+
+msgid "Generate certificate:"
+msgstr "Generar certificado:"
+
+msgid "Generate"
+msgstr "Generar"
+
+msgid "Servers"
+msgstr "Servidores"
+
+msgid "Add delete or make changes to users in the currently selected server."
+msgstr "Añadir, borrar or cambiar los usuarios en el servidor seleccionado."
+
+msgid "Make a random username"
+msgstr "Crear nombre de usuario aleatorio"
+
+msgid "Select the users root directory"
+msgstr "Seleccione el directorio raíz de los usuarios"
+
+msgid "Root directory:"
+msgstr "Directorio raíz:"
+
+msgid "Make a random password"
+msgstr "Crear un password aleatorio"
+
+msgid "Select an upload directory below the users root directory"
+msgstr "Seleccione un directorio de subida bajo el directorio raíz del usuario"
+
+msgid "Shell: "
+msgstr "Shell: "
+
+msgid "Create this upload directory"
+msgstr "Crear éste directorio de subida"
+
+msgid "Add"
+msgstr "Añadir"
+
+msgid "Doubleclick to make changes to a user"
+msgstr "Haga doble click para modificar el usuario"
+
+msgid "Users"
+msgstr "Usuarios"
+
+msgid "Current usage, transferrates and terminating connections."
+msgstr "Uso actual, tazas de transferencia y conexiones terminando."
+
+msgid "Total bandwidth: "
+msgstr "Ancho de banda total: "
+
+msgid "Total incoming: "
+msgstr "Entrada total: "
+
+msgid " Total outgoing: "
+msgstr " Salida total: "
+
+msgid "Username or PID:"
+msgstr "Nombre de usuario o PID:"
+
+msgid "Kicks the first matching username or the matching process number"
+msgstr "Echa el primer nombre de usuario o proceso que coincida "
+
+msgid "Kick"
+msgstr "Echar"
+
+msgid "Kickbans the first matching username or the matching process number"
+msgstr "Echa y banea el primer nombre de usuario o proceso que coincida"
+
+msgid "Kickban"
+msgstr "Echar y banear"
+
+msgid "Transfers"
+msgstr "Transferencias"
+
+msgid "Information about mounted devices."
+msgstr "Información acerca de dispositivos montados."
+
+msgid "Update"
+msgstr "Actualizar"
+
+msgid "Disc"
+msgstr "Disco"
+
+msgid "Transferred files and statistics generation."
+msgstr "Archivos transferidos y generación de estadísticas"
+
+msgid "Generate:"
+msgstr "Generar"
+
+msgid "Welcome"
+msgstr "Bienvenido"
+
+msgid "Clear"
+msgstr "Limpiar"
+
+msgid "Files"
+msgstr "Archivos"
+
+msgid "This is the entire proftpd configuration."
+msgstr "Ésta es la configuración de proftpd entera."
+
+msgid "Restore"
+msgstr "Restaurar"
+
+msgid "Backup"
+msgstr "Copia de respaldo"
+
+msgid "Check syntax"
+msgstr "Revise la sintáxis"
+
+msgid "The server will not reread its configuration"
+msgstr "El servidor no re-leerá su configuración"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Conf"
+msgstr "Configurar"
+
+msgid "Server security information."
+msgstr "Información de seguridad del servidor"
+
+msgid "Successful logins"
+msgstr "Logins exitosos"
+
+msgid "Refused logins"
+msgstr "Logins rechazados"
+
+msgid "Security"
+msgstr "Seguridad"
+
+#, c-format
+msgid "Total number of imported users: %ld\n"
+msgstr "Número total de usuarios importados: %ld\n"
+
+msgid "Select any users you want to import"
+msgstr "Selecciona los usuarios que desee importar"
+
+msgid "Import users to the currently selected server."
+msgstr "Importar usuarios al servidor seleccionado."
+
+msgid "All selected users will be imported with the following settings:"
+msgstr "Todos los usuarios seleccionados serán importados con las siguiente configuración:"
+
+msgid "The users will have this root directory:"
+msgstr "Los usuarios tendrán éste directorio raíz:"
+
+msgid "They will have username based directories under the root directory:"
+msgstr "Tendrán directorios bajo el directorio raíz, basándose en el nombre de usuario:"
+
+msgid "Add an upload directory under the root directory:"
+msgstr "Añadir un directorio de subida bajo el directorio raíz:"
+
+msgid ""
+"If you delete all text here and check the checkbutton then users will be "
+"able to upload directly in the root directory"
+msgstr ""
+"Si borra todo el texto aquí y activa el casillero los usuarios podrán "
+"subir archivos directamente al directorio raíz"
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "No se pudo encontrar el archivo pixmap: %s"

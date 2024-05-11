@@ -1,0 +1,1940 @@
+# Swedish translation of GADMIN-ProFTPD.
+# Copyright (C) 2008 magnus-swe@telia.com
+# This file is distributed under the same license as the gadmin-proftpd package.
+# FIRST AUTHOR <magnus-swe@telia.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gadmin-proftpd 0.3.6\n"
+"Report-Msgid-Bugs-To: magnus-swe@telia.com\n"
+"POT-Creation-Date: 2004-05-30 20:12+0200\n"
+"PO-Revision-Date: 3004-05-30 20:00+0200\n"
+"Last-Translator: Magnus-swe <magnus-swe@telia.com>\n"
+"Language-Team: SV <magnus-swe@telia.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "\t\tSystem user management activated.\n\n"
+msgstr "\t\tSystem-användarhantering aktiverad.\n\n"
+
+msgid "\t\tVirtual user management activated.\n\n"
+msgstr "Virtuell användarhantering aktiverad.\n\n"
+
+msgid "\t\tMySQL user management activated.\n\n"
+msgstr "\t\tMySQL-användarhantering aktiverad.\n\n"
+
+msgid "\t\tLDAP user management activated.\n\n"
+msgstr "\t\tLDAP-användarhantering aktiverad.\n\n"
+
+msgid "If you also want to let system users login then remove the newly\n"
+msgstr "Om du även vill tillåta systemanvändar-inloggningar så ta bort den nyligen\n"
+
+msgid "added AuthPAM off module section in the configuration tab.\n\n"
+msgstr "tillagda AuthPAM off modulsektionen i konfigurationsfliken.\n\n"
+
+msgid ""
+"Write the new users name and other settings in the user profile below.\n"
+msgstr "Skriv den nya användarens namn och andra inställningar i användarprofilen nedan.\n"
+
+msgid ""
+"Press apply to add this new user with the selected settings.\n"
+"\n"
+msgstr "Tryck verkställ för att lägga till den nya användaren med de nya inställningarna.\n"
+"\n"
+
+msgid ""
+"You can also skip this step and directly alter an existing users name and\n"
+msgstr "Du kan också skippa detta steg och ändra en existerande användares namn och\n"
+
+msgid "settings and then press apply. This can save administration time.\n"
+msgstr "inställningar direkt och sedan trycka på verkställ. Detta kan spara administrationtid.\n"
+
+msgid "You need to generate certificates before you can start the server.\n"
+msgstr "Du måste generera certifikat innan du kan starta servern.\n"
+
+#, c-format
+msgid ""
+"Failed adding the system group:\n"
+"%s\n"
+msgstr "Misslyckades med att lägga till systemgruppen:\n"
+"%s\n"
+
+#, c-format
+msgid ""
+"Failed adding the system user:\n"
+"%s\n"
+msgstr "Misslyckades med att lägga till systemanvändaren:\n"
+"%s\n"
+
+#, c-format
+msgid ""
+"Added this locked and false shelled system user:\n"
+"%s\n"
+msgstr "Lade till den här låsta och falskskaliga systemanvändaren:\n"
+"%s\n"
+
+#, c-format
+msgid "Failed reading file: %s\n"
+msgstr "Misslyckades med att läsa filen: %s\n"
+
+msgid "You must specify a username.\n"
+msgstr "Du måste ange ett användarnamn.\n"
+
+#, c-format
+msgid ""
+"Failed adding user: %s\n"
+"A user name can not begin with a number.\n"
+msgstr "Misslyckades med att lägga till användaren: %s\n"
+"Ett användarnamn kan inte börja med ett nummer.\n"
+
+#, c-format
+msgid ""
+"Failed adding user: %s\n"
+"The user root can not be added for security reasons.\n"
+msgstr ""
+"Misslyckades med att lägga till användare: %s\n"
+"Root-användaren kan inte läggas till av säkerhetsskäl.\n"
+
+#, c-format
+msgid ""
+"Failed adding user: %s\n"
+"chars \"<\" and \">\" arent allowed.\n"
+msgstr ""
+"Misslyckades med att lägga till användaren: %s\n"
+"Tecknen \"<\" och \">\" är inte tillåtna.\n"
+
+#, c-format
+msgid ""
+"Failed adding user: %s\n"
+"A minimum password length of 6 chars is required.\n"
+msgstr ""
+"Misslyckades med att lägga till användaren: %s\n"
+"En minimum-lösenordslängd på 6 tecken krävs.\n"
+
+#, c-format
+msgid ""
+"Failed adding user: %s\n"
+"No group specified.\n"
+msgstr ""
+"Misslyckades med att lägga till användaren: %s\n"
+"Ingen grupp has angetts.\n"
+
+#, c-format
+msgid ""
+"Failed adding user: %s\n"
+"No shell specified.\n"
+msgstr ""
+"Misslyckades med att lägga till användaren: %s\n"
+"Inget skal är angett.\n"
+
+msgid "A comment is required to add a user.\n"
+msgstr "En kommentar krävs för att lägga till en användare.\n"
+
+#, c-format
+msgid ""
+"Failed adding user: %s\n"
+"Cant open proftpd.conf.\n"
+msgstr ""
+"Misslyckades med att lägga till användaren: %s\n"
+"Kan inte öppna proftpd.conf\n"
+
+#, c-format
+msgid ""
+"Failed adding user: %s\n"
+"The selected virtual host was not found.\n"
+msgstr ""
+"Misslyckades med att lägga till användaren: %s\n"
+"Den valda virtuella värden hittades inte.\n"
+
+#, c-format
+msgid ""
+"Failed adding user: %s\n"
+"The user already exists in this server.\n"
+msgstr ""
+"Misslyckades med att lägga till användaren: %s\n"
+"användaren finns redan i den här servern.\n"
+
+#, c-format
+msgid "Failed adding user: %s\n"
+msgstr "Misslyckades med att lägga till användaren: %s\n"
+
+#, c-format
+msgid "Failed adding group: %s\n"
+msgstr "Misslyckades med att lägga till gruppen: %s\n"
+
+#, c-format
+msgid "Error adding group: %s\n"
+msgstr "Fel vid tillägg av grupp: %s\n"
+
+msgid ""
+"The system user was not added because uppercase\n"
+"or language specific letters are not allowed.\n"
+msgstr ""
+"Systemanvändaren lades inte till för att stora\n"
+"eller språkspecifika tecken inte tillåts.\n"
+
+msgid "Missing ftp home directory. Scroll down and add one first.\n"
+msgstr "Hemkatalog saknas. Scrolla ner och lägg till en först.\n"
+
+#, c-format
+msgid ""
+"The system user \"%s\" already exists.\n"
+"The user was added to this server but the password was not changed.\n"
+msgstr ""
+"Systemanvändaren \"%s\" finns redan.\n"
+"Användaren lades till i den här servern men lösenordet ändrades inte.\n"
+
+#, c-format
+msgid ""
+"Could not write the new user configuration to:\n"
+"%s\n"
+"Run gadmin-proftpd as root\n"
+msgstr ""
+"Kunde inte skriva den nya användarkonfigurationen till:\n"
+"%s\n"
+"Kör gadmin-proftpd som root\n"
+
+msgid "Refusing to change a server without a specified name.\n"
+msgstr "Vägrar att lägga till en server utan specifiserat namn.\n"
+
+msgid "Refusing to change a server without a specified port.\n"
+msgstr "Vägrar att ändra en server utan specifiserad port.\n"
+
+#, c-format
+msgid ""
+"Cant open proftpd.conf here: \n"
+"%s\n"
+msgstr ""
+"Cant open proftpd.conf här:\n"
+"%s\n"
+
+#, c-format
+msgid "A line with over 8000 chars is not valid in: %s\n"
+msgstr "En rad med över 8000 tecken är inte tillåtet i: %s\n"
+
+#, c-format
+msgid "The minimum password length is %d.\n"
+msgstr "Minsta lösenordslängd är: %d.\n"
+
+msgid "Error: user not found, couldnt change its settings.\n"
+msgstr "Fel: Användaren hittades inte, kunde inte ändra dess inställningar.\n"
+
+msgid ""
+"\n"
+"The Password was changed.\n"
+msgstr ""
+"\n"
+"Lösenordet ändrades.\n"
+
+msgid ""
+"The password was not changed.\n"
+"The user didnt exist in shadow or passwd.\n"
+msgstr ""
+"Lösenordet ändrades inte.\n"
+"Användaren fanns inte i shadow eller passwd.\n"
+
+msgid "Standard"
+msgstr "Standard"
+
+msgid "Restore"
+msgstr "Återställ"
+
+msgid "Backup"
+msgstr "Backup"
+
+msgid "Delete this system user ?"
+msgstr "Ta bort den här systemanvändaren ?"
+
+msgid "Do you also want to delete the system user ?"
+msgstr "Vill du även ta bort systemanvändaren ?"
+
+msgid "Username: "
+msgstr "Användarnamn: "
+
+msgid "No"
+msgstr "Nej"
+
+msgid "New user"
+msgstr "Ny användare"
+
+msgid "Delete"
+msgstr "Ta bort"
+
+msgid "Mounted on"
+msgstr "Monterad på"
+
+msgid "Free space"
+msgstr "Ledigt utrymme"
+
+msgid "Used space"
+msgstr "Använt utrymme"
+
+msgid "Total space"
+msgstr "Totalt utrymme"
+
+msgid "Percent used"
+msgstr "Procent använt"
+
+msgid "Device"
+msgstr "Enhet"
+
+#, c-format
+msgid "Error running command: %s\n"
+msgstr "Fel vid körning av kommando: %s\n"
+
+#, c-format
+msgid "gprostats -html %s"
+msgstr "gprostats -html %s"
+
+msgid "Username"
+msgstr "Användarnamn"
+
+msgid "Action"
+msgstr "Händelse"
+
+msgid "Bytes"
+msgstr "Bytes"
+
+msgid "Files"
+msgstr "Filer"
+
+msgid "Client"
+msgstr "Klient"
+
+msgid "Start of transfer"
+msgstr "Start av överföring"
+
+msgid "Generate welcome messages"
+msgstr "Generera välkomstmeddelanden"
+
+msgid "Generate html statistics"
+msgstr "Generera html-statistik"
+
+msgid "Select any users you want to import"
+msgstr "Välj de användare du vill importera"
+
+msgid "Import users to the selected server."
+msgstr "Importera användare till den valda servern."
+
+msgid "Groupname"
+msgstr "Gruppnamn"
+
+msgid "Selected users will be imported with the following settings:"
+msgstr "Valda användare kommer att importeras med följande inställningar:"
+
+msgid "FTP home directory:"
+msgstr "FTP hemkatalog:"
+
+msgid "Add users to private directories below the FTP home directory:"
+msgstr "Lägg till användare i privata kataloger under FTP-hemkatalogen:"
+
+msgid "Import"
+msgstr "Importera"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Activate"
+msgstr "Aktivera"
+
+msgid "Deactivate"
+msgstr "Deaktivera"
+
+msgid "Shutdown"
+msgstr "Stäng ner"
+
+msgid "Apply"
+msgstr "Verkställ"
+
+msgid "Help"
+msgstr "Hjälp"
+
+msgid "About"
+msgstr "Om"
+
+msgid "Quit"
+msgstr "Avsluta"
+
+msgid "Servers"
+msgstr "Servrar"
+
+msgid "Users"
+msgstr "Användare"
+
+msgid "Transfers"
+msgstr "Överföringar"
+
+msgid "Disc"
+msgstr "Disk"
+
+msgid "Security"
+msgstr "Säkerhet"
+
+msgid "Configuration"
+msgstr "Konfiguration"
+
+msgid "Information: cant read version"
+msgstr "Information: kan inte läsa version"
+
+msgid "Status: unknown"
+msgstr "Status: okänd"
+
+msgid "Security information"
+msgstr "Säkerhetsinformation"
+
+msgid "Any system users you have created will no longer be able to log in.\n"
+msgstr "De systemanvändare du har skapat kan inte längre logga in.\n"
+
+msgid ""
+"\n"
+"If you also want to let system users login then remove entire\n"
+msgstr ""
+"\n"
+"Om du även vill låta systemanvändare logga in så tar du bort de\n"
+
+msgid ""
+"newly added AuthPAM off module restriction lines in the configuration tab.\n"
+msgstr ""
+"nyligen tillagda AuthPAM off modulrestriktionsraderna i konfigurationsfliken.\n"
+
+msgid ""
+"\n"
+"Press apply if this is what you want.\n"
+"\n"
+msgstr ""
+"\n"
+"Tryck verkställ om det här är vad du vill.\n"
+"\n"
+
+
+msgid "Switch back if this is not what you want.\n"
+msgstr "Ändra tillbaka om det här inte är vad du vill.\n"
+
+msgid "Virtual user management deactivated.\n\n"
+msgstr "Virtuell användarhantering deaktiverad.\n\n"
+
+msgid "Any virtual users you have created will no longer be able to log in.\n"
+msgstr "De virtuella användare du skapat kan inte längre logga in.\n"
+
+msgid "Press apply if this is what you want.\n\n"
+msgstr "Tryck på verkställ om det här är vad du vill.\n\n"
+
+msgid ""
+"ftp.mydomain.org, 192.168.0.100 or 0.0.0.0 which means listen to all network "
+"interfaces"
+msgstr ""
+"ftp.mindomän.org, 192.168.0.100 eller 0.0.0.0 som betyder lyssna på alla nätverks- "
+"kort"
+
+msgid ""
+"My FTP server or set it to off to have the server use its own name and "
+"version"
+msgstr ""
+"min FTP-server, eller sätt till off så att servern använder sitt eget namn och "
+"version"
+
+msgid "On"
+msgstr "På"
+
+msgid "Off"
+msgstr "Av"
+
+msgid "Server port:"
+msgstr "Serverport:"
+
+msgid ""
+"A port the server listens on. 21 is the standard port. 0 means that the "
+"server is deactivated"
+msgstr ""
+"En port som servern lyssnar på. 21 är standardporten. 0 betyder att "
+"servern är deaktiverad"
+
+msgid "NAT router:"
+msgstr "NAT-router:"
+
+msgid "The external IP address or DNS name of the NAT router."
+msgstr "Externa IP-adressen eller DNS-namnet på NAT-routern."
+
+msgid "Admin email:"
+msgstr "Admin-epost:"
+
+msgid "The administrators email address"
+msgstr "Administratörens epostadress"
+
+msgid "Identity lookups:"
+msgstr "Identitetsuppslagningar:"
+
+msgid "Reverse lookups:"
+msgstr "Baklängesuppslagningar:"
+
+msgid "Time standard:"
+msgstr "Tidsstandard:"
+
+msgid "GMT or local time"
+msgstr "GMT eller lokal tid"
+
+msgid "GMT"
+msgstr "GMT"
+
+msgid "Local time"
+msgstr "Lokal tid"
+
+msgid "Passive port range:"
+msgstr "Passivt portintervall:"
+
+msgid "From this port"
+msgstr "Från den här porten"
+
+msgid "To this port"
+msgstr "Till den här porten"
+
+msgid "Max connections:"
+msgstr "Max anslutningar:"
+
+msgid "The maximum simoultaneous connections for this server"
+msgstr "Max antal samtidiga användare för den här servern"
+
+msgid "Max login attempts:"
+msgstr "Max inloggningsförsök:"
+
+msgid ""
+"The maximum number of logins attempts a user can fail before disconnected"
+msgstr ""
+"Max antal inloggningsförsök en användare kan försöka innan avstängd"
+
+msgid "Login timeout:"
+msgstr "Inloggningstimeout:"
+
+msgid "The maximum time a user can spend authenticating"
+msgstr "Maxtid en användare kan spendera på autentisering"
+
+msgid "Idle timeout:"
+msgstr "Inaktivitetstimeout:"
+
+msgid "The time it takes before an idle user is thrown out in seconds"
+msgstr "Tiden det tar innan en inaktiv användare kastas ut i sekunder"
+
+msgid "Transfer mode:"
+msgstr "Överföringsläge:"
+
+msgid "Binary"
+msgstr "Binärt"
+
+msgid "Ascii"
+msgstr "Ascii"
+
+msgid "FXP transfers:"
+msgstr "FXP-överföringar:"
+
+msgid "Username length:"
+msgstr "Användarnamnslängd:"
+
+msgid "The length of the randomized usernames"
+msgstr "Längden på de randomiserade användarnamnen"
+
+msgid "Password length:"
+msgstr "Lösenordslängd:"
+
+msgid "The length of the randomized passwords"
+msgstr "Längden på de randomiserade lösenorden"
+
+msgid "Randomized letters:"
+msgstr "Randomiserade bokstäver:"
+
+msgid "Upper"
+msgstr "Stora"
+
+msgid "Lower"
+msgstr "Små"
+
+msgid "Enable virtual users:"
+msgstr "Aktivera virtuella användare:"
+
+msgid "HTML statistics:"
+msgstr "HTML-statistik:"
+
+msgid "Generated HTML statistics file, IE: /var/www/ftp.htm"
+msgstr "Genererad HTML-statistikfil, tex: /var/www/ftp.htm"
+
+msgid "Security log:"
+msgstr "Säkerhetslogg:"
+
+msgid "IE: /var/log/secure"
+msgstr "tex: /var/log/secure"
+
+msgid "Server user:"
+msgstr "Serveranvändare:"
+
+msgid ""
+"The server drops its privileges and runs as this user, nobody is often used"
+msgstr ""
+"Servern sänker sina rättigheter och körs som den här användaren, nobody is often used"
+
+msgid "Server group:"
+msgstr "Servergrupp:"
+
+msgid ""
+"The server drops its privileges and runs as this group, nobody is often used"
+msgstr ""
+"Servern sänker sina rättigheter och körs som den här gruppen, nobody is often used"
+
+msgid "Fake file user:"
+msgstr "Falsk filägare:"
+
+msgid ""
+"It will look like this fake user owns all files.\n"
+"It does not have to be an existing user"
+msgstr ""
+"Det kommer att se ut som den här falska användaren äger alla filer.\n"
+"Det behöver inte vara en existerande användare"
+
+msgid "Fake file group:"
+msgstr "Falsk filgrupp:"
+
+msgid ""
+"It will look like this fake group owns all files.\n"
+"It does not have to be an existing group"
+msgstr ""
+"Det kommer att se ut som den här falska gruppen äger alla filer.\n"
+"Det behöver inte vara en existerande grupp"
+
+msgid "Upload speed:"
+msgstr "Uppladdningshastighet:"
+
+msgid "Total upload speed shared by all clients in KiloBytes/sec"
+msgstr "Total uppladdningshastighet:"
+
+msgid "Download speed:"
+msgstr "Nerladdningshastighet:"
+
+msgid "Total download speed shared by all clients in KiloBytes/sec"
+msgstr "Total nerladdningshastighet delad av alla klienter i KiloBytes/sek"
+
+msgid "Resume uploads:"
+msgstr "Återuppta uppladdningar:"
+
+msgid "Resume downloads:"
+msgstr "Återuppta nerladdningar:"
+
+msgid "Remove aborted uploads:"
+msgstr "Ta bort avbrutna uppladdningar:"
+
+msgid "Secure communications:"
+msgstr "Säker kommunikation:"
+
+msgid "Use secure communication:"
+msgstr "Använd säker kommunikation:"
+
+msgid "Require for channels:"
+msgstr "Kräv för kanaler:"
+
+msgid "Both"
+msgstr "Båda"
+
+msgid "Data"
+msgstr "Data"
+
+msgid "Control"
+msgstr "Kontroll"
+
+msgid "Verify clients:"
+msgstr "Verifiera klienter:"
+
+msgid "Use these protocols:"
+msgstr "Använd dessa protokoll:"
+
+msgid "IE: SSLv23 or TLSv1"
+msgstr "Tex: SSLv23 eller TLSv1"
+
+msgid "TLS log:"
+msgstr "TLS-log:"
+
+msgid "IE: /var/log/gadmin-proftpd_tls.log"
+msgstr "Tex: /var/log/gadmin-proftpd_tls.log"
+
+msgid " Signed certificate settings: "
+msgstr " Signerade certifikatsinställningar: "
+
+msgid "Certificate directory:"
+msgstr "Certifikatskatalog:"
+
+msgid "IE: /etc/gadmin-proftpd/certs"
+msgstr "Tex: /etc/gadmin-proftpd/certs"
+
+msgid "This servers DNS name or IP address"
+msgstr "Den här serverns DNS-namn eller IP-adress"
+
+msgid "Email address:"
+msgstr "Epostadress:"
+
+msgid "Country:"
+msgstr "Land:"
+
+msgid "A country"
+msgstr "Ett Land"
+
+msgid "City or town:"
+msgstr "Stad eller stadsdel:"
+
+msgid "A city or a town"
+msgstr "En stad eller en stadsdel"
+
+msgid "Organization:"
+msgstr "Organisation:"
+
+msgid "Some organization"
+msgstr "Någon organisation"
+
+msgid "Organizational unit:"
+msgstr "Organisationsenhet:"
+
+msgid "Accounting"
+msgstr "Bokföring"
+
+msgid "Password:"
+msgstr "Lösenord:"
+
+msgid "A password"
+msgstr "ett lösenord"
+
+msgid "Encryption bits:"
+msgstr "Krypteringsbitar:"
+
+msgid "Number of bits in the generated certificate"
+msgstr "Antal bitar i det genererade certifikatet"
+
+msgid "Days valid:"
+msgstr "Dagar giltigt:"
+
+msgid "Number of days the certificate is valid"
+msgstr "Antal dagar som certifikatet är giltigt"
+
+msgid "Country code:"
+msgstr "Landskod:"
+
+msgid "The country code, IE: SV, DK, EN, US, etc"
+msgstr "Landskoden, tex: SV, DK, EN, US, etc"
+
+msgid "Generate new certificates:"
+msgstr "Generera nya certifikat:"
+
+msgid "Ratios for uploads and downloads:"
+msgstr "Ratios för uppladdning och nerladdning:"
+
+msgid "Use ratios:"
+msgstr "Använd ratios:"
+
+msgid "Save ratios:"
+msgstr "Spara ratios:"
+
+msgid "Server address"
+msgstr "Serveradress"
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Server name"
+msgstr "Servernamn"
+
+msgid "Server type"
+msgstr "Servertyp"
+
+msgid "Server address:"
+msgstr "Serveradress:"
+
+msgid "Server name:"
+msgstr "Servernamn:"
+
+msgid "Server type:"
+msgstr "Servertyp:"
+
+
+msgid "Settings"
+msgstr "Inställningar"
+
+msgid "PID"
+msgstr "PID"
+
+msgid "User"
+msgstr "Användare"
+
+msgid "KiloBytes/sec"
+msgstr "KiloBytes/sec"
+
+msgid "Directory"
+msgstr "katalog"
+
+msgid "File"
+msgstr "Fil"
+
+msgid "Server"
+msgstr "Server"
+
+msgid "Select PID:"
+msgstr "Välj PID:"
+
+msgid "Kick"
+msgstr "Kicka"
+
+msgid "Kickban"
+msgstr "Kickabanna"
+
+msgid "Account locked:"
+msgstr "Konto låst:"
+
+msgid "Username:"
+msgstr "Användarnamn:"
+
+msgid "Group:"
+msgstr "Grupp:"
+
+msgid "Comment:"
+msgstr "Kommentar:"
+
+msgid "Shell:"
+msgstr "Skal:"
+
+msgid "Require password:"
+msgstr "Kräv lösenord:"
+
+msgid "Show user in statistics:"
+msgstr "Visa användaren i statistik:"
+
+msgid "Maximum logins:"
+msgstr "Max inloggningar:"
+
+msgid "Allow logins from:"
+msgstr "Tillåt inloggningar ifrån:"
+
+msgid "All, None, IP, DNS name or CIDR-Address"
+msgstr "All, None, IP, DNS namn eller CIDR-Adress"
+
+msgid "Byte ratio:"
+msgstr "Byteratio:"
+
+msgid "Byte ratio credit:"
+msgstr "Byteratio-kredit:"
+
+msgid "File ratio:"
+msgstr "Filratio"
+
+msgid "File ratio credit:"
+msgstr "Filratio-kredit:"
+
+msgid "Group"
+msgstr "Grupp"
+
+msgid "Comment"
+msgstr "Kommentar"
+
+msgid "Home directory"
+msgstr "Hemkatalog"
+
+msgid "Require password"
+msgstr "Kräv lösenord"
+
+msgid "Banned"
+msgstr "Bannad"
+
+msgid "Maximum connections"
+msgstr "Max anslutningar"
+
+msgid "User settings and directories:"
+msgstr "Användarinställningar och kataloger:"
+
+msgid "Add a new directory."
+msgstr "Lägg till en ny katalog."
+
+msgid "Add directory"
+msgstr "Lägg till katalog"
+
+msgid "Delete the selected directory."
+msgstr "Ta bort vald katalog."
+
+msgid "Delete directory"
+msgstr "Ta bort katalog"
+
+msgid "Apply changes after adding directories and setting permissions."
+msgstr "Verkställ ändringar efter katalogtillägg och rättighetsinställningar."
+
+msgid "Apply changes"
+msgstr "Verkställ ändringar"
+
+msgid "List"
+msgstr "Lista"
+
+msgid "Upload"
+msgstr "Ladda upp"
+
+msgid "Append"
+msgstr "Återuppta"
+
+msgid "Download"
+msgstr "Ladda ner"
+
+msgid "Rename"
+msgstr "Byta namn"
+
+msgid "Overwrite"
+msgstr "Skriva över"
+
+msgid "Make directory"
+msgstr "Skapa katalog"
+
+msgid "Remove directory"
+msgstr "Ta bort katalog"
+
+msgid "Site"
+msgstr "Site"
+
+msgid "Chmod"
+msgstr "Chmod"
+
+msgid "Change group"
+msgstr "Ändra grupp"
+
+msgid "Show dates"
+msgstr "Visa datum"
+
+msgid "Show working directory"
+msgstr "Visa arbetskatalog"
+
+msgid "Show sizes"
+msgstr ""
+
+msgid "Stat"
+msgstr "Stat"
+
+msgid "Change working directory"
+msgstr "Byt arbetskatalog"
+
+msgid "CD up"
+msgstr "CD upp"
+
+msgid "Credits"
+msgstr "Credits"
+
+msgid "Author: "
+msgstr "Author: "
+
+msgid "I want to thank the following for their contributions:"
+msgstr "Jag vill tacka följande för deras bidrag:"
+
+msgid ""
+"The PROFTPD developers.\n"
+"\n"
+msgstr ""
+"PROFTPD-utvecklarna.\n"
+"\n"
+
+msgid "for the RPM spec file."
+msgstr "för RPM-specfilen."
+
+msgid "And all translators:"
+msgstr "Och alla översättare:"
+
+msgid "Afrikaans"
+msgstr ""
+
+msgid "Amharic"
+msgstr ""
+
+msgid "Arabic"
+msgstr ""
+
+msgid "Azerbaijani"
+msgstr ""
+
+msgid "Basque"
+msgstr ""
+
+msgid "Bulgarian"
+msgstr ""
+
+msgid "Breton"
+msgstr ""
+
+msgid "Brittish-English"
+msgstr ""
+
+msgid "Bosnian"
+msgstr ""
+
+msgid "Byelorussian"
+msgstr ""
+
+msgid "Catalan"
+msgstr ""
+
+msgid "Chinese"
+msgstr ""
+
+msgid "Chinese-Taiwan"
+msgstr ""
+
+msgid "Croatian"
+msgstr ""
+
+msgid "Czech"
+msgstr ""
+
+msgid "Danish"
+msgstr ""
+
+msgid "Dutch"
+msgstr ""
+
+msgid "Esperanto"
+msgstr ""
+
+msgid "Estonian"
+msgstr ""
+
+msgid "Finnish"
+msgstr ""
+
+msgid "French"
+msgstr ""
+
+msgid "Galician"
+msgstr ""
+
+msgid "German"
+msgstr ""
+
+msgid "Greek"
+msgstr ""
+
+msgid "Hebrew"
+msgstr ""
+
+msgid "Hini"
+msgstr ""
+
+msgid "Hungarian"
+msgstr ""
+
+msgid "Icelandic"
+msgstr ""
+
+msgid "Indonesian"
+msgstr ""
+
+msgid "Irish"
+msgstr ""
+
+msgid "Italian"
+msgstr ""
+
+msgid "Japanese"
+msgstr ""
+
+msgid "Korean"
+msgstr ""
+
+msgid "Kurdish"
+msgstr ""
+
+msgid "Latvian-Lettish"
+msgstr ""
+
+msgid "Lithuanian"
+msgstr ""
+
+msgid "Macedonian"
+msgstr ""
+
+msgid "Maori"
+msgstr ""
+
+msgid "Maltese"
+msgstr ""
+
+msgid "Norwegian"
+msgstr ""
+
+msgid "Polish"
+msgstr ""
+
+msgid "Portuguese"
+msgstr ""
+
+msgid "Portuguese-Brazil"
+msgstr ""
+
+msgid "Romanian"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
+
+msgid "Serbian"
+msgstr ""
+
+msgid "Slovak"
+msgstr ""
+
+msgid "Slovenian"
+msgstr ""
+
+msgid "Spanish"
+msgstr ""
+
+msgid "Swedish"
+msgstr ""
+
+msgid "Tamil"
+msgstr ""
+
+msgid "Thai"
+msgstr ""
+
+msgid "Turkish"
+msgstr ""
+
+msgid "Traditional Chinese"
+msgstr ""
+
+msgid "Ukrainian"
+msgstr ""
+
+msgid "Vietnamese"
+msgstr ""
+
+msgid "Wallon"
+msgstr ""
+
+msgid "Welch"
+msgstr ""
+
+msgid "Close"
+msgstr "Stäng"
+
+msgid "Could not delete the user, select a user first.\n"
+msgstr "Kunde inte ta bort användaren, välj en användare fört.\n"
+
+msgid "User root can not be deleted.\n"
+msgstr "Användare root kan inte tas bort.\n"
+
+#, c-format
+msgid ""
+"proftpd.conf was not found here:\n"
+"%s\n"
+msgstr ""
+"proftpd.conf kunde inte hittas här:\n"
+"%s\n"
+
+msgid "Could not find the server, user not deleted\n"
+msgstr "Kunde inte hitta servern, användaren togs ej bort\n"
+
+msgid "No username specified.\n"
+msgstr "Inget användarnan specifiserat.\n"
+
+msgid "The root user can not be deleted.\n"
+msgstr "Rootanvändaren kan inte tas bort.\n"
+
+#, c-format
+msgid "Failed deleting user: %s\n"
+msgstr "Kunde inte ta bort användare: %s\n"
+
+msgid "Invalid directory path: NONE"
+msgstr "Felaktig katalogsökväg: NONE"
+
+#, c-format
+msgid "Invalid directory path: %s"
+msgstr "Felaktig katalogsökväg: %s"
+
+msgid "Select directory"
+msgstr "Välj en katalog"
+
+msgid "Select file"
+msgstr "Välj en fil"
+
+msgid "None"
+msgstr "Ingen"
+
+msgid "Group file not found"
+msgstr "Gruppfil kunde inte hittas"
+
+msgid "Group name not found"
+msgstr "Gruppnamn kunde inte hittas"
+
+msgid "Max randomize username length is 999\n"
+msgstr "Max randomiserad användarnamnslängd är 999\n"
+
+msgid "Randomize username length can only contain digits\n"
+msgstr "randomiserad änvändarnamnslängd kan endast innehålla siffror\n"
+
+msgid "Max randomize password length is 999\n"
+msgstr "Max randomiserad lösenordslängd är 999\n"
+
+msgid "Randomize password length can only contain digits\n"
+msgstr "Randomiserad lösenordslängd kan bara innehålla siffror\n"
+
+msgid "Randomize length too long, changed it to 256.\n"
+msgstr "Randomiserad längd är för lång, byttes till 256.\n"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "City"
+msgstr "Stad"
+
+msgid "Organization name"
+msgstr "Organisationsnamn"
+
+msgid "Organization department"
+msgstr "Organisationsenhet"
+
+#, c-format
+msgid ""
+"Error: Unable to create new settings file here:\n"
+"%s\n"
+msgstr ""
+"Fel: Kan inte skapa ny inställningsfil här:\n"
+"%s\n"
+
+msgid "Couldnt create the ftpusers file here:\n"
+msgstr "Kunde inte skapa ftpusers-filen här:\n"
+
+msgid ""
+"\n"
+"\n"
+"Make sure the directories exists then restart gadmin-proftpd.\n"
+msgstr ""
+"\n"
+"\n"
+"Se till att katalogerna existerar, starta sedan om servern.\n"
+
+msgid ""
+"\n"
+"If this security feature still fails then security will be good but not "
+"optimal.\n"
+msgstr ""
+"\n"
+"Om den här säkerhetsinställningen fortfarande inte fungerar så minskas "
+"säkerheten och blir inte optimal.\n"
+
+msgid "Couldnt find ftpusers here:\n"
+msgstr "Kunde inte hitta ftpusers här:\n"
+
+msgid ""
+"\n"
+"\n"
+"The missing file was created and all users on the system was added to it.\n"
+msgstr ""
+"\n"
+"\n"
+"Den saknade filen skapades och alla användare på systemet lades till i den.\n"
+
+msgid "All current users are now banned from using the ftp server until they\n"
+msgstr "alla nuvarande användare är nu bannade från FTP-servern tills dom\n"
+
+msgid ""
+"are unbanned. This in an auto security feature and its normal if this is\n"
+msgstr ""
+"tillåts igen. Det här är en auto-säkerhetsfunktion och det är normalt om det här är\n"
+
+msgid "the first time you start gadmin-proftpd.\n"
+msgstr "första gången du startar gadmin-proftpd.\n"
+
+msgid "Every certificate field must be filled in.\n"
+msgstr "Alla certifikatsfält måste fyllas i.\n"
+
+msgid "The password field cant contain any spaces or newline chars.\n"
+msgstr "Lösenordsfältet kan inte innehålla några mellanrum eller nyradstecken.\n"
+
+#, c-format
+msgid ""
+"Can not create secure certificate directory with command:\n"
+"%s\n"
+msgstr ""
+"Kan inte skapa en säker certifikatskatalog med det här kommandot:\n"
+"%s\n"
+
+msgid "Setting up environment"
+msgstr "Sätter upp miljön"
+
+#, c-format
+msgid ""
+"Error writing gadmin-proftpd-openssl.conf here: \n"
+"%s\n"
+msgstr ""
+"Fel vid skapande av gadmin-proftpd-openssl.conf här: \n"
+"%s\n"
+
+#, c-format
+msgid ""
+"Error: Could not chmod:\n"
+"%s\n"
+msgstr ""
+"Fel:: Kunde inte chmodda:\n"
+"%s\n"
+
+#, c-format
+msgid ""
+"Error writing openssl password file here:\n"
+"%s\n"
+msgstr ""
+"Fel vid skrivande av openssl lösenordsfil här:\n"
+"%s\n"
+
+#, c-format
+msgid ""
+"Error changing to certificate directory: \n"
+"%s\n"
+msgstr ""
+"Fel vid byte till certifikatskatalogen: \n"
+"%s\n"
+
+msgid "Creating certificate authority"
+msgstr "Skapar certifikatsauktoritet"
+
+#, c-format
+msgid ""
+"Error running openssl script 1:\n"
+"%s\n"
+msgstr ""
+"Fel vid körning av openssl skript 1:\n"
+"%s\n"
+
+msgid "Creating client certificate"
+msgstr "Skapar klientcertifikat"
+
+#, c-format
+msgid ""
+"Error running openssl script 2:\n"
+"%s\n"
+msgstr ""
+"Fel vid körning av openssl skript 2:\n"
+"%s\n"
+
+msgid "Signing client certificate"
+msgstr "Signerar klientcertifikatet"
+
+#, c-format
+msgid ""
+"Error running openssl script 3:\n"
+"%s\n"
+msgstr ""
+"Fel vid körning av openssl skript 3:\n"
+"%s\n"
+
+msgid "The certificates have been created successfully.\n"
+msgstr "Certifikaten har skapats med lyckat resultat.\n"
+
+msgid "They will be used by new secure FTP logins.\n"
+msgstr "Dom kommer att användas av nya säkra FTP-inloggningar.\n"
+
+#, c-format
+msgid ""
+"The user: \"%s\" was not imported\n"
+"because it already existed in this server.\n"
+msgstr ""
+"Användaren: \"%s\" blev inte importerad\n"
+"för att den redan existerade i den här servern.\n"
+
+#, c-format
+msgid "Error: Home directory too long: %s\n"
+msgstr "Fel: Hemkatalogen är för lång: %s\n"
+
+#, c-format
+msgid "Total number of imported users: %ld\n"
+msgstr "Totalt antal importerade användare: %ld\n"
+
+msgid "uploaded"
+msgstr "laddade upp"
+
+msgid "downloaded"
+msgstr "laddade ner"
+
+msgid "deleted"
+msgstr "tog bort"
+
+msgid "split filename ?"
+msgstr "delat filnamn ?"
+
+#, c-format
+msgid ""
+"Cant open the security log here:\n"
+"%s\n"
+msgstr ""
+"Kan inte öppna säkerhetsloggen här:\n"
+"%s\n"
+
+#, c-format
+msgid ""
+"Cant find the shells file here:\n"
+"%s\n"
+msgstr ""
+"Kan inte hitta skalfilen här:\n"
+"%s\n"
+
+#, c-format
+msgid ""
+"Warning: could not find a false or no login shell here:\n"
+"%s\n"
+"Appending the other shells."
+msgstr ""
+"Varning: kunde inte hitta ett falskt eller ej-loginskal här:\n"
+"%s\n"
+"Lägger till andra skal."
+
+#, c-format
+msgid "yes"
+msgstr "ja"
+
+#, c-format
+msgid "no"
+msgstr "nej"
+
+#, c-format
+msgid ""
+"Error reading the configuration here:\n"
+"%s\n"
+msgstr ""
+"Fel vid läsning av konfigurationen här:\n"
+"%s\n"
+
+#, c-format
+msgid ""
+"A line with over 4000 chars is not valid in:\n"
+"%s\n"
+msgstr ""
+"En rad med över 4000 tecken är inte giltig i:\n"
+"%s\n"
+
+msgid "Set version failed\n"
+msgstr "Sätta version misslyckades\n"
+
+#, c-format
+msgid " Information: PRoFTPD-%s"
+msgstr " Information: PRoFTPD-%s"
+
+msgid " Proftpd is not installed or not in your path."
+msgstr " Proftpd är inte installerad eller inte i din sökväg."
+
+msgid "GADMIN-PROFTPD Help"
+msgstr "GADMIN-PROFTPD Hjälp"
+
+msgid ""
+"\n"
+"\n"
+"Adding users:\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"Lägga till användare:\n"
+"\n"
+
+msgid ""
+"When adding a user you can randomize its username and password or use your "
+"own.\n"
+msgstr ""
+"När du lägger till en användare kan du randomisera dess användarnamn och "
+"lösenord eller använda ett eget.\n"
+
+msgid ""
+"You can also select its login shell, group, comment and ftp home directory.\n"
+msgstr ""
+"Du kan också välja dess inloggnings-skal, grupp, kommentar och FTP hemkatalog.\n"
+
+msgid ""
+"Press add when you are satisfied with the users settings and permissions.\n"
+"\n"
+msgstr ""
+"Tryck lägg till när du är nöjd med användarinställningarna och rättigheterna.\n"
+"\n"
+
+msgid ""
+"Any other directories added must be located below the ftp home directory for "
+"this user.\n"
+"\n"
+msgstr ""
+"Andra kataloger måste finnas under FTP hemkatalogen för "
+"den här användaren.\n"
+"\n"
+
+msgid ""
+"If you need to add more users with similar settings you can simply change a "
+"current users\n"
+msgstr ""
+"Om du behöver lägga till fler användare med liknande inställningar så kan du enklast ändra en "
+"befintlig användares\n"
+
+msgid ""
+"username, password and then press the add button.\n"
+"\n"
+msgstr ""
+"användarnamn, lösenord och sedan trycka på knappen lägg till.\n"
+"\n"
+
+msgid ""
+"\n"
+"Typical setups:\n"
+"\n"
+msgstr ""
+"\n"
+"Typiska uppsättningar:\n"
+"\n"
+
+msgid ""
+"Users needs upload access to a http servers directory:\n"
+"\n"
+msgstr ""
+"Användare behöver uppladdningsåtkomst till en http-servers katalog:\n"
+"\n"
+
+msgid "Set the users home directory to the webserver's root directory IE:\n"
+msgstr "Sätt användarens hemkatalog till webserverns rootkatalog, tex:\n"
+
+msgid "/var/www/html or /var/www/html/UserName for a private homepage.\n"
+msgstr "/var/www/html eller /var/www/html/UserName för en privat hemsida.\n"
+
+msgid ""
+"\n"
+"Adding anonymous access to a directory:\n"
+"\n"
+msgstr ""
+"\n"
+"Tillägg av anonym åtkomst av en katalog:\n"
+"\n"
+
+msgid "Type anonymous in the username field.\n"
+msgstr "Skriv anonymous i användarnamnsfältet.\n"
+
+msgid ""
+"Press the password randomize button or type a password longer then 5 chars.\n"
+msgstr ""
+"Tryck på lösenordsrandomiseringsknappen eller skriv ett lösenord som är längre än 5 tecken.\n"
+
+msgid "Type anonymous as group and comment.\n"
+msgstr "Skriv anonymous som grupp och kommentar.\n"
+
+msgid "Select /dev/null shell.\n"
+msgstr "Välj /dev/null som skal.\n"
+
+msgid "Set require password to off.\n"
+msgstr "Sätt kräv lösenord till av.\n"
+
+msgid "Type this users home directory IE: /var/ftp/anonymous.\n"
+msgstr "Skriv användarens hemkatalog, tex: /var/ftp/anonymous.\n"
+
+msgid ""
+"Press add to add this anonymous user.\n"
+"\n"
+msgstr ""
+"Tryck lägg till för att lägga till den här anonyma användaren.\n"
+"\n"
+
+msgid ""
+"You can now login as anonymous with no password or get in directly with a "
+"web browser.\n"
+"\n"
+msgstr ""
+"Nu kan du logga in som anonymous utan lösenord eller komma in direkt med en "
+"webläsare.\n"
+"\n"
+
+msgid ""
+"If the selected shell is false or null the user can only login to this FTP "
+"server otherwise\n"
+msgstr ""
+"Om det valda skalet är falskt eller null så kan användaren bara logga in till den här FTP- "
+"servern annars\n"
+
+msgid ""
+"that user gets a private home directory as well as its FTP directory and can "
+"login via ssh\n"
+msgstr ""
+"får den här användaren en privat hemkatalog och även en FTP-katalog och kan "
+"logga in via ssh\n"
+
+msgid ""
+"etc if that server allows the user to do so.\n"
+"\n"
+msgstr ""
+"osv om den servern tillåter den användaren att göra det.\n"
+"\n"
+
+msgid ""
+"You can easily add more virtual servers to run on different interfaces and "
+"ports.\n"
+msgstr ""
+"Du kan enkelt lägga till fler virtuella servrar som körs på andra adresser och "
+"portar.\n"
+
+msgid ""
+"The same users can have different directories and settings in different "
+"servers.\n"
+msgstr ""
+"Samma användare kan ha olika kataloger och inställningar i olika "
+"servrar.\n"
+
+msgid ""
+"When a user connects to one address and port it gets access according to "
+"that servers\n"
+msgstr ""
+"När en användare ansluter till en adress och port så får den åtkomst i förhållande till "
+"den serverns\n"
+
+msgid "configuration for that user.\n"
+msgstr "konfiguration för den användaren.\n"
+
+msgid ""
+"If you want to turn a server off without deleting it you can set its port "
+"value to 0\n"
+"\n"
+msgstr ""
+"Om du vill stänga av en server utan att ta bort den så kan du sätta dess port "
+"värde till 0\n"
+"\n"
+
+msgid ""
+"If this Proftpd server is behind a NAT router you should specify the "
+"routers\n"
+msgstr ""
+"Om den här Proftpd servern finns bakom en NAT-router bör du specifisera "
+"routerns\n"
+
+msgid ""
+"external DNS name or IP-address as the \"NAT router\" option and then turn "
+"it on.\n"
+"\n"
+msgstr ""
+"externa DNS-namn eller IP-adress som \"NAT-router\" inställningen och sedan aktivera "
+"det valet.\n"
+"\n"
+
+msgid ""
+"If you want to add directories thats not under the users home directory you "
+"can do this:\n"
+"\n"
+msgstr ""
+"Om du vill lägga till kataloger som inte finns under användarens hemkatalog så "
+"kan du göra så här:\n"
+"\n"
+
+msgid "Linux (as of kernel 2.4.0):\n"
+msgstr "Linux (från kernel 2.4.0):\n"
+
+msgid ""
+"mount --bind /some/directory/to/share /var/ftp/make_this_directory_first\n"
+"\n"
+msgstr ""
+"mount --bind /någon/katalog/att/dela /var/ftp/skapa_den_här_katalogen_först\n"
+"\n"
+
+msgid ""
+"BSD (as of 4.4BSD):\n"
+"mount_null /var/data /var/ftp/make_this_directory_first\n"
+"\n"
+msgstr ""
+"BSD (as of 4.4BSD):\n"
+"mount_null /var/data /var/ftp/skapa_den_här_katalogen_först\n"
+"\n"
+
+msgid ""
+"Solaris:\n"
+"mount -F lofs /var/data /var/ftp/make_this_directory_first\n"
+"\n"
+msgstr ""
+"Solaris:\n"
+"mount -F lofs /var/data /var/ftp/skapa_den_här_katalogen_först\n"
+"\n"
+
+msgid ""
+"Statistics:\n"
+"\n"
+msgstr ""
+"Statistik:\n"
+"\n"
+
+msgid ""
+"Pressing the generate welcome statistics button in the file tab will create\n"
+msgstr ""
+"Att trycka på generera statistik-knappen i fil-fliken kommer att skapa\n"
+
+msgid "welcome messages for all users in this FTP server.\n"
+msgstr "välkomstmeddelanden för alla användare i den här FTP-servern.\n"
+
+msgid "Pressing generate HTML statistics in the file tab creates top 10\n"
+msgstr "Att trycka generera HTML-statistik i fil-fliken skapar top 10\n"
+
+msgid ""
+"upload and download statistics as a webpage IE: /var/www/html/ftp.htm\n"
+"\n"
+msgstr ""
+"uppladdnings och nerladdnings-statistik som en websida, tex: /var/www/html/ftp.htm\n"
+"\n"
+
+msgid ""
+"With crond and gprostats you can do this to have it automatically update the "
+"statistics:\n"
+msgstr ""
+"Med crond och gprostats kan du göra så att statistiken automatiskt "
+"uppdateras:\n"
+
+msgid ""
+"gprostats -html /path/to/output.html\n"
+"gprostats -w welcome.msg\n"
+msgstr ""
+"gprostats -html /path/to/utfil.html\n"
+"gprostats -w welcome.msg\n"
+
+msgid ""
+"or both at the same time: gprostats -html /path/to/output.html -w welcome."
+"msg\n"
+msgstr ""
+"eller båda på samma gång: gprostats -html /path/to/utfil.html -w welcome."
+"msg\n"
+
+msgid ""
+"Use -c /path/to/proftpd.conf -x /path/to/xferlog if you need to.\n"
+"\n"
+msgstr ""
+"använd -c /sökväg/till/proftpd.conf -x /sökväg/till/xferlog om du behöver.\n"
+"\n"
+
+msgid ""
+"If you have made customized welcome messages and dont want them overwritten "
+"by gprostats\n"
+msgstr ""
+"Om du har gjort välkomstmeddelanden för hand och inte vill ha dom överskrivna "
+"av gprostats\n"
+
+msgid ""
+"you can configure this by selecting a user and unchecking \"show user in "
+"statistics\" and\n"
+msgstr ""
+"kan du konfigurera det genom att välja en användare och avbocka \"visa användaren i "
+"statistiken\" och\n"
+
+msgid ""
+"then pressing the apply button, this will also exclude the user from the "
+"html output.\n"
+"\n"
+msgstr ""
+"sedan trycka på verkställ, det kommer också att exkludera användaren från "
+"html-utfilen.\n"
+"\n"
+
+msgid ""
+"If you copy or move a file directly to the ftpservers directory you may need "
+"to\n"
+msgstr ""
+"Om du kopierar eller flyttar en fil direkt till FTP-serverns katalog så behöver du "
+"kanske\n"
+
+msgid ""
+"chmod it with 644 and chmod directories to 755 so that the directory and "
+"file can be accessed.\n"
+"\n"
+msgstr ""
+"chmodda filen med 644 och chmodda katalogerna till 755 så att katalogen och "
+"filen kan kommas åt.\n"
+"\n"
+
+msgid ""
+"This is one way of chmodding all files recursively in the directory /var/"
+"ftp:\n"
+msgstr ""
+"Det här är ett sätt att chmodda alla filer rekursivt i katalogen /var/"
+"ftp:\n"
+
+msgid ""
+"find /var/ftp -type f -exec chmod 644  -v {} \\;\n"
+"\n"
+msgstr ""
+"find /var/ftp -type f -exec chmod 644  -v {} \\;\n"
+"\n"
+
+msgid ""
+"Upload directories should have a chmod of 777 and this can be used for /var/"
+"ftp/upload\n"
+msgstr ""
+"Uppladdningskataloger borde ha chmod satt till 777 och det kan användas för /var/"
+"ftp/upload\n"
+
+msgid ""
+"find /var/ftp/upload -type d -exec chmod 777  -v {} \\;\n"
+"\n"
+"\n"
+msgstr ""
+"find /var/ftp/upload -type d -exec chmod 777  -v {} \\;\n"
+"\n"
+"\n"
+
+msgid ""
+"For more detailed information about the server and its configuration "
+"directives visit:\n"
+msgstr ""
+"För mer detaljerad information om servern och dess konfigurationsdirektiv "
+"besök:\n"
+
+msgid "http://www.proftpd.org\n"
+msgstr "http://www.proftpd.org\n"
+
+#, c-format
+msgid "GADMIN-PROFTPD %s Information"
+msgstr "GADMIN-PROFTPD %s Information"
+
+msgid "The server will shut down according to these settings."
+msgstr "Servern kommer att stängas ner med dessa inställningar."
+
+msgid "Time to real shutdown:"
+msgstr "Tid till riktig nedstängning:"
+
+msgid "now, +Minutes or HHMM"
+msgstr "now, +Minuter eller HHMM"
+
+msgid "New access disabled:"
+msgstr "Ny åtkomst nekad:"
+
+msgid "Minutes before real shutdown."
+msgstr "Minuter innan riktig nedstängning."
+
+msgid "Existing users disconnected:"
+msgstr "Existerande användare avstängda:"
+
+msgid "Shutdown message:"
+msgstr "Nedstängningsmeddelande:"
+
+#, c-format
+msgid "%s , Current connections will be dropped: %d"
+msgstr "%s , Nuvarande anslutningar kommer att stängas: %d"
+
+msgid ""
+"Pressing the activate button will cancel the shutdown and let users login "
+"again."
+msgstr ""
+"Att trycka på aktivera-knappen kommer att ta bort nedstängningen och låta användare logga in "
+"igen."
+
+msgid "OK"
+msgstr "OK"
+
+#, c-format
+msgid ""
+"Error: Could not backup the current configuration:\n"
+"%s\n"
+msgstr ""
+"Fel: Kunde inte backa upp den nuvarande konfigurationen:\n"
+"%s\n"
+
+#, c-format
+msgid ""
+"The configuration was backed up here for safety:\n"
+"%s\n"
+msgstr ""
+"Konfigurationen backades upp här av säkerhetsskäl:\n"
+"%s\n"
+
+#, c-format
+msgid ""
+"The configuration was backed up here for safety:\n"
+"%s%s\n"
+msgstr ""
+"Konfigurationen backades upp här av säkerhetsskäl:\n"
+"%s%s\n"
+
+msgid "The configuration file could not be restored.\n"
+msgstr "Konfigurationsfilen kunde inte återställas.\n"
+
+#, c-format
+msgid ""
+"Cant write a new proftpd.conf here:\n"
+"%s\n"
+msgstr ""
+"Kan inte skriva en ny proftpd.conf här:\n"
+"%s\n"
+
+msgid "GADMIN-PROFTPD Question"
+msgstr "GADMIN-PROFTPD-fråga"
+
+msgid "GADMIN-PROFTPD could not find the proftpd configuration\n"
+msgstr "GADMIN-PROFTPD kunde inte hitta proftpd konfigurationen\n"
+
+msgid "or you are using a basic configuration that doesnt have\n"
+msgstr "eller så använder du en enkel konfiguration som inte har\n"
+
+msgid ""
+"all the features that this program requires.\n"
+"\n"
+"\n"
+msgstr ""
+"alla inställningar som det här programmet behöver.\n"
+"\n"
+"\n"
+
+msgid "Do you want to overwrite your current proftpd configuration\n"
+msgstr "Vill du skriva över din nuvarande proftpd-konfiguration\n"
+
+msgid ""
+"with a suitable standard configuration for gadmin-proftpd ?\n"
+"\n"
+msgstr ""
+"med en passande standardkonfiguration för gadmin-proftpd ?\n"
+"\n"
+
+msgid "\t\t\t(If you dont know then press yes)\n"
+msgstr "\t\t\t(Om du inte vet bör du trycka ja)\n"
+
+msgid "Yes"
+msgstr ""
+
+#, c-format
+msgid ""
+"Error: cant create the settings directory here:\n"
+"%s\n"
+msgstr ""
+"Fel: kan inte skapa inställningskatalogen här:\n"
+"%s\n"
+
+#, c-format
+msgid ""
+"Error: cant write the settings file here:\n"
+"%s\n"
+msgstr ""
+"Fel: kan inte skriva inställningsfilen här:\n"
+"%s\n"
+
+msgid "Status: Deactivated"
+msgstr "Status: Deaktiverad"
+
+msgid "The server is deactivated.\n"
+msgstr "Servern är deaktiverad.\n"
+
+msgid "Status: Activated"
+msgstr "Status: Aktiverad"
+
+msgid "Error running ftpwho -v.\n"
+msgstr "Fel vid körande av ftpwho -v.\n"
+
+msgid "Idle"
+msgstr "Overksam"
+
+msgid "Uploading"
+msgstr "Laddar upp"
+
+msgid "Downloading"
+msgstr "Laddar ner"
+
+msgid "Deleting"
+msgstr "Tar bort"
+
+msgid "Total Kbytes/sec:"
+msgstr "Totalt Kbytes/sek:"
+
+msgid "Incoming Kbytes/sec:"
+msgstr "Inkommande Kbytes/sek:"
+
+msgid "Outgoing Kbytes/sec:"
+msgstr "Utgående Kbytes/sek:"
+
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Kunde inte hitta pixmap-filen: %s"
