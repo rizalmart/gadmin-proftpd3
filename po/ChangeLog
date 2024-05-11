@@ -1,0 +1,41 @@
+Version 0.4.4
+------------------
+Changed "user settings not found" to "None".
+Updated sv.po
+
+Version 0.3.8
+------------------
+Added more translatable strings. Copy from sv.po at the top.
+
+
+Version 0.3.7
+------------------
+Added string "New user"
+All tooltips in create_user_settings.c are now translatable.
+Updated sv.po
+
+
+Version 0.3.6
+------------------
+Removed deprecated "#, fuzzy" line in sv.po header.
+
+
+Version 0.3.5
+------------------
+New and complete Swedish translation.
+
+
+Version 8.2.9
+------------------
+Added French translation:
+Steve Holweg <steve@keyko-web.net> and
+Thomas Myriam <thomas.myriam@keyko-web.net>
+
+Version 8.1.9:
+------------------
+Added simplified Chineese zh_CN thanks to Stanley Peng <stanleypng@gmail.com>
+
+Version 8.1.7:
+--------------------------
+Swedish translation: Magnus-swe <magnus-swe@telia.com>
+Spanish translation: Diego Escalante <dieguito@gmail.com>
