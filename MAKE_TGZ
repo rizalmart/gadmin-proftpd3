@@ -1,0 +1,16 @@
+#!/bin/sh
+
+version='3.0.0'
+beta=''
+
+make clean
+rm -f config.cache
+rm -f Makefile
+rm -f config.h
+rm -f config.log
+rm -f config.status
+rm -f stamp*
+rm -f po/*.gmo
+rm -rf src/.deps
+cd ..
+tar -hzcvf gadmin-proftpd-$version$beta.tar.gz gadmin-proftpd-$version

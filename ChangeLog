@@ -1,0 +1,130 @@
+Version 0.4.6
+-----------------------------------------------------------
+Fixed an iter validation issue and updated
+the code for showing file transfers.
+
+
+Version 0.4.4
+-----------------------------------------------------------
+Authentication types are now selectable with combo choices.
+ModulePath is added if found and missing.
+Adds MySQL-support via MySQL interprocess communication.
+MySQL database setup adds user, group and quota tables.
+Remote and local MySQL users can be added, changed and deleted.
+
+
+Version 0.4.3
+--------------------------------------------------------
+Indentation fixes and cleanups.
+Fixes a possible first time startup crash.
+
+
+Version 0.4.2
+--------------------------------------------------------
+Dont add ratio directives if the ratio module is loaded
+but ratios arent turned on in the global settings.
+
+
+Version 0.4.1
+--------------------------------------------------------
+Module detection improvement.
+
+
+Version 0.4.0
+--------------------------------------------------------
+Better handling of directories with spaces and the
+AllowOverwrite option. Added option DisplayChdir.
+
+-------- Possible bug found --------
+PRoFTPD doesnt seem to show DisplayLogin messages if
+they are located in a directory with spaces, like this:
+<Anonymous /some path with spaces>
+
+
+Version 0.3.9
+--------------------------------------------------------
+Added this TLS option to make filezilla work again:
+TLSOptions AllowClientRenegotiations
+
+
+Version 0.3.8
+--------------------------------------------------------
+Removes the global apply and directory apply buttons.
+Combines "add user" and "apply user" buttons. 
+Adds more information about adding new users.
+Sets missing version color.
+Swedish translation update.
+
+
+Version 0.3.7
+--------------------------------------------------------
+Added a "New user" button.
+Status is shown in red or green.
+Swedish translation update.
+Fixes array comparizon warnings.
+
+
+Version 0.3.6
+--------------------------------------------------------
+Adds support for included configurations.
+Adds support for dynamically loaded modules.
+Virtual user management fixes.
+Adds better default install instructions.
+ 
+
+Version 0.3.5
+--------------------------------------------------------
+Added a new and complete Swedish translation.
+Added automatic configuration backups for new versions.
+Adds more buttons to the configuration tab that can backup or
+restore a previous backup or revert to a standard configuration.
+Doesnt show the configuration question again if the answer is no.
+Added more checks for invalid configuration settings such as
+line length checks, DefaultRoot and UserAlias options.
+
+
+Version 0.3.4
+--------------------------------------------------------
+Only require generation of certificates before start if
+the use secure FTP combo does not show "off".
+QA for SSL enabled vs non SSL enabled servers and user ratios.
+
+
+Version 0.3.3
+--------------------------------------------------------
+Adds vhosts with localhost as the address.
+Adds new vhosts with RequireValidShell off.
+Fixes various population issues.
+Now only uses SSLv23 (removed TLSv1)
+Fixes certificate entry insertions when no encryption is used.
+Added a certificate check before server start.
+
+
+Version 0.3.2
+--------------------------------------------------------
+Fixed vhost certificate paths and options.
+
+Version 0.3.1
+--------------------------------------------------------
+Fixed valid days selection for generated certificates.
+(Admins should regenerate certificates)
+
+Version 0.3.0
+--------------------------------------------------------
+Added optional virtual user management that automatically adds
+AuthPAM off module setting. A new treeview was added to the transfer tab.
+Toggle button callbacks and columns for directories where combined.
+Code cleanup and bugfixes.
+
+Version 0.2.9
+--------------------------------------------------------
+Added a new FTP directory selector.
+Fixed a static module listing command.
+Signed certificate handling was added.
+Now handles explicit encryption.
+Using: "auth+data" instead of "On" for option "TLSRequired".
+Added options: TLSRSACertificateKeyFile, TLSCACertificateFile
+and "TLSRenegotiate required off".
+Removed gprotls.conf and example .pem-file.
+Moved "#GP_" settings to new settings.conf.
+Automatically substitutes TLS module configuration.

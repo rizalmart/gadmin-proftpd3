@@ -1,0 +1,15 @@
+
+TODO:
+-----------------------------------------------
+
+1. Show database comments for each user in the gui.
+   Load all usernames and comments into an array
+   Or add a #comment for each user in the conf.
+
+2. LDAP support.
+
+3. Quota management.
+
+4. Bind mounts with sysinit automounting.
+
+5. More translations.

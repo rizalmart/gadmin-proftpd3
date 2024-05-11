@@ -1,0 +1,208 @@
+dnl Process this file with autoconf to produce a configure script.
+
+AC_INIT(configure.in)
+
+AM_INIT_AUTOMAKE(gadmin-proftpd, 3.0.0)
+AM_CONFIG_HEADER(config.h)
+AM_MAINTAINER_MODE
+
+AC_CANONICAL_HOST
+AC_MSG_CHECKING([for OS type])
+case $host in
+    *-linux*)
+    AC_MSG_RESULT([Linux ($host) found.])
+    AC_DEFINE(USE_LINUX,1,[using linux macros...])
+    ;;
+    *-solaris*)
+    AC_MSG_RESULT([Solaris ($host) found.])
+    AC_DEFINE(USE_SUNOS,1,[using sunos macros...])
+    ;;
+    *-sunos*)
+    AC_MSG_RESULT([Solaris ($host) found.])
+    AC_DEFINE(USE_SUNOS,1,[using sunos macros...])
+    ;;
+    *-freebsd*)
+    AC_MSG_RESULT([Free BSD ($host) found.])
+    AC_DEFINE(USE_FREEBSD,1,[using freebsd macros...])
+    ;;
+    *-openbsd*)
+    AC_MSG_RESULT([Open BSD ($host) found.])
+    AC_DEFINE(USE_OPENBSD,1,[using openbsd macros...])
+    ;;
+    *-netbsd*)
+    AC_MSG_RESULT([Net BSD ($host) found.])
+    AC_DEFINE(USE_NETBSD,1,[using netbsd macros...])
+    ;;
+    *-darwin*)
+    AC_MSG_RESULT([Darwin Mac OS X ($host) found.])
+    AC_DEFINE(USE_DARWIN,1,[using darwin macros...])
+    ;;
+    *-aix*)
+    AC_MSG_RESULT([AIX ($host) found.])
+    AC_DEFINE(USE_AIX,1,[using aix macros...])
+    ;;
+    *-hpux*)
+    AC_MSG_RESULT([HP UX ($host) found.])
+    AC_DEFINE(USE_HPUX,1,[using hpux macros...])
+    ;;
+    *)
+    AC_MSG_RESULT([Unknown host found: ($host). Using Linux macros...])
+    AC_DEFINE(USE_LINUX,1,[using Linux macros...])
+    ;;
+esac
+
+AC_ISC_POSIX
+AC_PROG_CC
+AM_PROG_CC_STDC
+AC_HEADER_STDC
+
+pkg_modules="gtk+-3.0 >= 3.0.0"
+PKG_CHECK_MODULES(PACKAGE, [$pkg_modules])
+AC_SUBST(PACKAGE_CFLAGS)
+AC_SUBST(PACKAGE_LIBS)
+
+GETTEXT_PACKAGE=gadmin-proftpd
+AC_SUBST(GETTEXT_PACKAGE)
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE",[needed for gettext...])
+
+dnl Add the languages which your application supports here.
+ALL_LINGUAS="sv fr es zh_CN"
+AM_GLIB_GNU_GETTEXT
+
+dnl Use -Wall if we have gcc (added -lcrypt for crypt).
+changequote(,)dnl
+if test "x$GCC" = "xyes"; then
+  case " $CFLAGS " in
+  *[\ \	]-Wall[\ \	]*) ;;
+  *) CFLAGS="$CFLAGS -Wall" ;;
+  esac
+fi
+changequote([,])dnl
+
+
+dnl Determine if we can link with -lcrypt
+AC_SEARCH_LIBS(crypt, [crypt],
+[test "$ac_cv_search_crypt" = "none required" || AUTHLIBS="-lcrypt $AUTHLIBS"
+AC_DEFINE_UNQUOTED(HAVE_CRYPT,1,[Define for linking with -lcrypt])])
+
+
+dnl some dynamic defines and corrections for configure options
+SYSCONFDIR=`eval echo $sysconfdir`
+AC_SUBST(SYSCONFDIR)
+
+LOCALSTATEDIR=`eval echo $localstatedir`
+AC_SUBST(LOCALSTATEDIR)
+
+test "x$prefix" = xNONE && prefix=$ac_default_prefix
+test "x$exec_prefix" = xNONE && exec_prefix='${prefix}'
+
+
+dnl Path to proftpd's configuration file.
+default_proftpd_conf="/etc/proftpd.conf"
+test "x$PROFTPD_CONF" = x && PROFTPD_CONF=$default_proftpd_conf
+AC_DEFINE_UNQUOTED(PROFTPD_CONF,"`eval echo "${PROFTPD_CONF}"`",[path to proftpd.conf])
+AC_MSG_RESULT([Using configuration file: (${PROFTPD_CONF})])
+
+dnl Path to the systems security log.
+default_secure_log="/var/log/secure"
+test "x$SECURE_LOG" = x && SECURE_LOG=$default_secure_log
+AC_DEFINE_UNQUOTED(SECURE_LOG,"`eval echo "${SECURE_LOG}"`",[path to the systems security log])
+AC_MSG_RESULT([Using security log: (${SECURE_LOG})])
+
+dnl Path to proftpds xferlog.
+default_xfer_log="/var/log/xferlog"
+test "x$XFER_LOG" = x && XFER_LOG=$default_xfer_log
+AC_DEFINE_UNQUOTED(XFER_LOG,"`eval echo "${XFER_LOG}"`",[path to proftpds xferlog])
+AC_MSG_RESULT([Using xferlog: (${XFER_LOG})])
+
+dnl Path to the webserver root directory/gprostats html output file.
+default_html_statistics="/var/www/html/ftp.htm"
+test "x$HTML_STATISTICS" = x && HTML_STATISTICS=$default_html_statistics
+AC_DEFINE_UNQUOTED(HTML_STATISTICS,"`eval echo "${HTML_STATISTICS}"`",[path to generated html statistics])
+AC_MSG_RESULT([Using html statistics output file: (${HTML_STATISTICS})])
+
+dnl Name of the generated ftp welcome message.
+default_welcome_message="welcome.msg"
+test "x$WELCOME_MESSAGE" = x && WELCOME_MESSAGE=$default_welcome_message
+AC_DEFINE_UNQUOTED(WELCOME_MESSAGE,"`eval echo "${WELCOME_MESSAGE}"`",[Name of generated welcome messages])
+AC_MSG_RESULT([Using welcome message output file: (${WELCOME_MESSAGE})])
+
+dnl The server runs as this user.
+default_server_user="nobody"
+test "x$SERVER_USER" = x && SERVER_USER=$default_server_user
+AC_DEFINE_UNQUOTED(SERVER_USER,"`eval echo "${SERVER_USER}"`",[The server runs as this user])
+AC_MSG_RESULT([Using server user: (${SERVER_USER})])
+
+dnl The server runs as this group.
+default_server_group="nobody"
+test "x$SERVER_GROUP" = x && SERVER_GROUP=$default_server_group
+AC_DEFINE_UNQUOTED(SERVER_GROUP,"`eval echo "${SERVER_GROUP}"`",[The server runs as this group])
+AC_MSG_RESULT([Using server group: (${SERVER_GROUP})])
+
+dnl Path to the proftpd binary.
+default_proftpd_binary="proftpd"
+test "x$PROFTPD_BINARY" = x && PROFTPD_BINARY=$default_proftpd_binary
+AC_DEFINE_UNQUOTED(PROFTPD_BINARY,"`eval echo "${PROFTPD_BINARY}"`",[Path to the proftpd binary])
+AC_MSG_RESULT([Using PROFTPD binary: (${PROFTPD_BINARY})])
+
+dnl Path to the ftpwho binary.
+default_ftpwho_binary="ftpwho"
+test "x$FTPWHO_BINARY" = x && FTPWHO_BINARY=$default_ftpwho_binary
+AC_DEFINE_UNQUOTED(FTPWHO_BINARY,"`eval echo "${FTPWHO_BINARY}"`",[Path to the ftpwho binary])
+AC_MSG_RESULT([Using FTPWHO binary: (${FTPWHO_BINARY})])
+
+dnl Path to the proc filesystem.
+default_proc_path="/proc"
+test "x$PROC_PATH" = x && PROC_PATH=$default_proc_path
+AC_DEFINE_UNQUOTED(PROC_PATH,"`eval echo "${PROC_PATH}"`",[Path to the proc filesystem])
+AC_MSG_RESULT([Using Proc filesystem: (${PROC_PATH})])
+
+dnl Minimum accepted password length.
+default_min_pass_len=6
+test "x$MIN_PASS_LEN" = x && MIN_PASS_LEN=$default_min_pass_len
+AC_DEFINE_UNQUOTED(MIN_PASS_LEN,${MIN_PASS_LEN},[The minimum accepted password length.])
+AC_MSG_RESULT([Using MIN_PASS_LEN: (${MIN_PASS_LEN})])
+
+dnl Command for making the server start at boot.
+default_sysinit_start_cmd="echo"
+test "x$SYSINIT_START_CMD" = x && SYSINIT_START_CMD=$default_sysinit_start_cmd
+AC_DEFINE_UNQUOTED(SYSINIT_START_CMD,"`eval echo "${SYSINIT_START_CMD}"`",[Command for making the server start at boot])
+AC_MSG_RESULT([Using sysinit start command: (${SYSINIT_START_CMD})])
+
+dnl Command for not making the server start at boot.
+default_sysinit_stop_cmd="echo"
+test "x$SYSINIT_STOP_CMD" = x && SYSINIT_STOP_CMD=$default_sysinit_stop_cmd
+AC_DEFINE_UNQUOTED(SYSINIT_STOP_CMD,"`eval echo "${SYSINIT_STOP_CMD}"`",[Command for not making the server start at boot])
+AC_MSG_RESULT([Using sysinit stop command: (${SYSINIT_STOP_CMD})])
+
+
+dnl Hardcoded application config directory.
+default_gp_appconfdir="/etc/gadmin-proftpd"
+test "x$GP_APPCONFDIR" = x && GP_APPCONFDIR=$default_gp_appconfdir
+AC_DEFINE_UNQUOTED(GP_APPCONFDIR,"`eval echo "${GP_APPCONFDIR}"`",[application config dir])
+AC_MSG_RESULT([Using GP_APPCONFDIR: (${GP_APPCONFDIR})])
+
+dnl Path to the backup proftpd.conf file.
+default_proftpd_conf_backup="${GP_APPCONFDIR}/proftpd.conf.old.gadmin-proftpd-${VERSION}"
+test "x$PROFTPD_CONF_BACKUP" = x && PROFTPD_CONF_BACKUP=$default_proftpd_conf_backup
+AC_DEFINE_UNQUOTED(PROFTPD_CONF_BACKUP,"`eval echo "${PROFTPD_CONF_BACKUP}"`",[Path to backup proftpd.conf])
+AC_MSG_RESULT([Using backup proftpd.conf file: (${PROFTPD_CONF_BACKUP})])
+
+
+dnl Here we hardcode passwd, shadow, group, gshadow, ftpusers and shutmsg.
+dnl This is how proftpd currently (1.2.9) handles this and why not.
+AC_DEFINE_UNQUOTED(GP_FTPUSERS,"`eval echo "/etc/ftpusers"`",[path to ftpusers])
+AC_DEFINE_UNQUOTED(GP_SHELLS,"`eval echo "/etc/shells"`",[path to shells])
+AC_DEFINE_UNQUOTED(GP_SHUTMSG,"`eval echo "/etc/shutmsg"`",[path to shutmsg])
+AC_DEFINE_UNQUOTED(GP_PASSWD,"`eval echo "/etc/passwd"`",[path to passwd])
+AC_DEFINE_UNQUOTED(GP_SHADOW,"`eval echo "/etc/shadow"`",[path to shadow])
+AC_DEFINE_UNQUOTED(GP_GROUP,"`eval echo "/etc/group"`",[path to group])
+AC_DEFINE_UNQUOTED(GP_GSHADOW,"`eval echo "/etc/gshadow"`",[path to gshadow])
+AC_DEFINE_UNQUOTED(GP_VARDIR,"`eval echo "${localstatedir}"`",[var dir])
+
+
+AC_OUTPUT([
+Makefile
+src/Makefile
+po/Makefile.in
+])

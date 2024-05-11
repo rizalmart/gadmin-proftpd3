@@ -1,0 +1,30 @@
+### Default paths and settings ###
+# PROFTPD_CONF="/etc/proftpd.conf"
+# SECURE_LOG="/var/log/secure"
+# XFER_LOG="/var/log/xferlog"
+# PROC_PATH="/proc"
+# PROFTPD_BINARY="proftpd"
+# FTPWHO_BINARY="ftpwho"
+# SERVER_USER="nobody"
+# SERVER_GROUP="nobody"
+# WELCOME_MESSAGE="welcome.msg"
+# HTML_STATISTICS="/var/www/html/ftp.htm"
+# MIN_PASS_LEN=6
+# SYSINIT_START_CMD="echo"
+# SYSINIT_STOP_CMD="echo"
+
+### Configure for Debian/Ubuntu derived systems ###
+# ./configure --prefix=/usr --sysconfdir=/etc \
+# --localstatedir=/var --sbindir=/usr/sbin \
+# PROFTPD_CONF="/etc/proftpd/proftpd.conf" \
+# HTML_STATISTICS="/usr/share/apache2/default-site/ftp.htm" \
+# SYSINIT_START_CMD="update-rc.d -f proftpd defaults" \
+# SYSINIT_STOP_CMD="update-rc.d -f proftpd remove" &&
+# make && make install
+
+### Configure for Redhat/Fedora derived systems ###
+./configure --prefix=/usr --sysconfdir=/etc \
+--localstatedir=/var --sbindir=/usr/sbin \
+SYSINIT_START_CMD="chkconfig proftpd on" \
+SYSINIT_STOP_CMD="chkconfig proftpd off" &&
+make && make install

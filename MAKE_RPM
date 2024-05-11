@@ -1,0 +1,9 @@
+#!/bin/sh
+# Make a Redhat RPM.
+
+version='3.0.0'
+
+cd ..
+tar -zhcvf /root/rpmbuild/SOURCES/gadmin-proftpd-$version.tar.gz gadmin-proftpd-$version
+cd gadmin-proftpd-$version
+rpmbuild -ba gadmin-proftpd.spec

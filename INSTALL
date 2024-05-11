@@ -1,0 +1,30 @@
+
+		    Installation instructions:
+		----------------------------------
+
+ This package cant be installed without giving the correct configure options.
+
+ For any GNU/Linux system following the FHS the proper options could be:
+ ./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var --sbindir=/usr/sbin
+ (See the Autoinstall file for more options and src/system_defines.c if you are porting)
+
+ After the configure stage has completed with no errors its time to compile the source:
+ make
+
+ The final stage, installing the program and its datafiles:
+ make install
+
+ Currently gadmin-proftpd has support for the following systems to a varying degree:
+ Linux
+ FreeBSD
+ OpenBSD
+ NetBSD
+ Darwin Mac OSX
+ AIX
+ HP-UX
+ Solaris
+ SunOS
+
+ If gadmin-proftpd doesnt work flawlessly on your system and you know how to correct it
+ then send a mail explaining how to this in detail, preferrably with a patch to:
+ magnus-swe@telia.com

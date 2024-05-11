@@ -1,0 +1,182 @@
+/* config.h.in.  Generated from configure.in by autoheader.  */
+
+/* always defined to indicate that i18n is enabled */
+#undef ENABLE_NLS
+
+/* Path to the ftpwho binary */
+#undef FTPWHO_BINARY
+
+/* needed for gettext... */
+#undef GETTEXT_PACKAGE
+
+/* application config dir */
+#undef GP_APPCONFDIR
+
+/* path to ftpusers */
+#undef GP_FTPUSERS
+
+/* path to group */
+#undef GP_GROUP
+
+/* path to gshadow */
+#undef GP_GSHADOW
+
+/* path to passwd */
+#undef GP_PASSWD
+
+/* path to shadow */
+#undef GP_SHADOW
+
+/* path to shells */
+#undef GP_SHELLS
+
+/* path to shutmsg */
+#undef GP_SHUTMSG
+
+/* var dir */
+#undef GP_VARDIR
+
+/* Define to 1 if you have the 'bind_textdomain_codeset' function. */
+#undef HAVE_BIND_TEXTDOMAIN_CODESET
+
+/* Define to 1 if you have the Mac OS X function CFLocaleCopyCurrent in the
+   CoreFoundation framework. */
+#undef HAVE_CFLOCALECOPYCURRENT
+
+/* Define to 1 if you have the Mac OS X function CFPreferencesCopyAppValue in
+   the CoreFoundation framework. */
+#undef HAVE_CFPREFERENCESCOPYAPPVALUE
+
+/* Define for linking with -lcrypt */
+#undef HAVE_CRYPT
+
+/* Define to 1 if you have the 'dcgettext' function. */
+#undef HAVE_DCGETTEXT
+
+/* Define if the GNU gettext() function is already present or preinstalled. */
+#undef HAVE_GETTEXT
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define if your <locale.h> file defines LC_MESSAGES. */
+#undef HAVE_LC_MESSAGES
+
+/* Define to 1 if you have the <locale.h> header file. */
+#undef HAVE_LOCALE_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdio.h> header file. */
+#undef HAVE_STDIO_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* path to generated html statistics */
+#undef HTML_STATISTICS
+
+/* The minimum accepted password length. */
+#undef MIN_PASS_LEN
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Path to the proc filesystem */
+#undef PROC_PATH
+
+/* Path to the proftpd binary */
+#undef PROFTPD_BINARY
+
+/* path to proftpd.conf */
+#undef PROFTPD_CONF
+
+/* Path to backup proftpd.conf */
+#undef PROFTPD_CONF_BACKUP
+
+/* path to the systems security log */
+#undef SECURE_LOG
+
+/* The server runs as this group */
+#undef SERVER_GROUP
+
+/* The server runs as this user */
+#undef SERVER_USER
+
+/* Define to 1 if all of the C89 standard headers exist (not just the ones
+   required in a freestanding environment). This macro is provided for
+   backward compatibility; new code need not use it. */
+#undef STDC_HEADERS
+
+/* Command for making the server start at boot */
+#undef SYSINIT_START_CMD
+
+/* Command for not making the server start at boot */
+#undef SYSINIT_STOP_CMD
+
+/* using aix macros... */
+#undef USE_AIX
+
+/* using darwin macros... */
+#undef USE_DARWIN
+
+/* using freebsd macros... */
+#undef USE_FREEBSD
+
+/* using hpux macros... */
+#undef USE_HPUX
+
+/* using Linux macros... */
+#undef USE_LINUX
+
+/* using netbsd macros... */
+#undef USE_NETBSD
+
+/* using openbsd macros... */
+#undef USE_OPENBSD
+
+/* using sunos macros... */
+#undef USE_SUNOS
+
+/* Version number of package */
+#undef VERSION
+
+/* Name of generated welcome messages */
+#undef WELCOME_MESSAGE
+
+/* path to proftpds xferlog */
+#undef XFER_LOG
