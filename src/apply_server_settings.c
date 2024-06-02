@@ -386,7 +386,7 @@ void apply_server_settings(struct w *widgets)
                 if( active_index == 0 )
                     sprintf(conf_line, "IdentLookups on\n");
                 else
-                    sprintf(conf_line, "IdentLookups off\n");
+                    sprintf(conf_line, "#IdentLookups off\n");
 
                 strcat(config, conf_line);
             }
@@ -836,7 +836,7 @@ void apply_server_settings(struct w *widgets)
                 if( active_index == 0 )
                     sprintf(conf_line, "IdentLookups on\n");
                 else
-                    sprintf(conf_line, "IdentLookups off\n");
+                    sprintf(conf_line, "#IdentLookups off\n");
 
                 strcat(config, conf_line);
             }
