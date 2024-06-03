@@ -35,7 +35,7 @@
 #define GP_SHUTMSG "/etc/shutmsg"
 
 /* var dir */
-#define GP_VARDIR "/usr/var"
+#define GP_VARDIR "/var"
 
 /* Define to 1 if you have the 'bind_textdomain_codeset' function. */
 #define HAVE_BIND_TEXTDOMAIN_CODESET 1
